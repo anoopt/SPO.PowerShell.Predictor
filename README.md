@@ -27,6 +27,20 @@ Install the latest version of PSReadLine:
 Install-Module -Name PSReadline
 ```
 
+#### Set preferred source and view for suggestions
+
+Enable predictions from history and plugins
+
+```powershell
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+```
+
+Enable list view:
+
+```powershell
+Set-PSReadLineOption -PredictionViewStyle ListView
+```
+
 ## Getting started
 
 ### Install SPO PowerShell Predictor
@@ -45,8 +59,9 @@ To import the SPO PowerShell Predictor PowerShell module in the current session 
 Import-Module -Name SPO.PowerShell.Predictor
 ```
 
-> [!NOTE]
-> You can switch between view modes with the <kbd>F2</kbd> key.
+### Use SPO PowerShell Predictor
+
+Once imported, start typing SharePoint Online Management Shell cmdlet (e.g. `Connect-SPOService`) and see the predictions loading.
 
 ## Uninstallation
 
