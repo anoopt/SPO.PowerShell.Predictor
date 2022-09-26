@@ -32,5 +32,6 @@ elseif ($psReadlineModule -eq $null) {
 
 # Import the predictor module
 if ($shouldImportPredictor) {
-    Import-Module (Join-Path -Path $PSScriptRoot -ChildPath SPO.PowerShell.Predictor.dll)
+    Import-Module (Join-Path -Path $PSScriptRoot -ChildPath SPO.PowerShell.Predictor.dll);
+    Write-Warning "Make sure you either have SharePoint Online Management shell installed or have installed Microsoft.Online.SharePoint.PowerShell module for the cmdlets to work.";
 }
