@@ -27,6 +27,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="SPO.PowerShell.Predictor\" />
+    <Folder Include="SPO.PowerShell.Predictor\Data\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SPO.PowerShell.Predictor\SPO.PowerShell.Predictor.psd1" />
@@ -34,9 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SPO.PowerShell.Predictor\Data\SPO.PowerShell.Suggestions.json" />
-    <Content Include="SPO.PowerShell.Predictor\SPO.PowerShell.Predictor.deps.json" />
     <Content Include="SPO.PowerShell.Predictor\SPO.PowerShell.Predictor.dll" />
-    <Content Include="SPO.PowerShell.Predictor\SPO.PowerShell.Predictor.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

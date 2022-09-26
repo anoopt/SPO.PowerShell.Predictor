@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using SPO.PowerShell.Predictor.Abstractions.Interfaces;
+using SPO.PowerShell.Predictor.Abstractions.Model;
 using System.Management.Automation.Subsystem.Prediction;
 using System.Reflection;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
-using SPO.PowerShell.Predictor.Abstractions.Interfaces;
-using SPO.PowerShell.Predictor.Abstractions.Model;
 
 namespace SPO.PowerShell.Predictor.Services
 {
