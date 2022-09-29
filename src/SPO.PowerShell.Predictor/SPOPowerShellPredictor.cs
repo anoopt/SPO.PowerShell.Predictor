@@ -44,6 +44,11 @@ namespace SPO.PowerShell.Predictor
         {
             var result = _SPOPowerShellPredictorService.GetSuggestions(context);
 
+            if (result is null || cancellationToken.IsCancellationRequested)
+            {
+                return default;
+            }
+
             return new SuggestionPackage(result);
         }
 

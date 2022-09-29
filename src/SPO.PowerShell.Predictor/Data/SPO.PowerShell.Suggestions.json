@@ -25,7 +25,7 @@
   },
   {
     "Rank": 1,
-    "Command": "Add-SPOSiteDesign "
+    "Command": "Add-SPOSiteDesign"
   },
   {
     "Rank": 1,
@@ -237,7 +237,7 @@
   },
   {
     "Rank": 2,
-    "Command": "Get-SPOHubSite -Identity https://contoso.sharepoint.com/sites/online-marketing "
+    "Command": "Get-SPOHubSite -Identity https://contoso.sharepoint.com/sites/online-marketing"
   },
   {
     "Rank": 1,
@@ -261,7 +261,7 @@
   },
   {
     "Rank": 1,
-    "Command": "Get-SPOPublicCdnOrigins | Fl "
+    "Command": "Get-SPOPublicCdnOrigins | Fl"
   },
   {
     "Rank": 1,
@@ -317,11 +317,11 @@
   },
   {
     "Rank": 1,
-    "Command": "Get-SPOSiteDesign 44252d09-62c4-4913-9eb0-a2a8b8d7f863 "
+    "Command": "Get-SPOSiteDesign 44252d09-62c4-4913-9eb0-a2a8b8d7f863"
   },
   {
     "Rank": 1,
-    "Command": "Get-SPOSiteDesignRights 607aed52-6d61-490a-b692-c0f58a6981a1 "
+    "Command": "Get-SPOSiteDesignRights 607aed52-6d61-490a-b692-c0f58a6981a1"
   },
   {
     "Rank": 1,
@@ -485,15 +485,15 @@
   },
   {
     "Rank": 1,
-    "Command": "Grant-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing "
+    "Command": "Grant-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing"
   },
   {
     "Rank": 1,
-    "Command": "Grant-SPOSiteDesignRights "
+    "Command": "Grant-SPOSiteDesignRights"
   },
   {
     "Rank": 1,
-    "Command": "Invoke-SPOSiteDesign -Identity 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectgo\" "
+    "Command": "Invoke-SPOSiteDesign -Identity 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectgo\""
   },
   {
     "Rank": 1,
@@ -517,7 +517,7 @@
   },
   {
     "Rank": 1,
-    "Command": "New-SPOMigrationPackage -SourceFilesPath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_SrcPkg "
+    "Command": "New-SPOMigrationPackage -SourceFilesPath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_SrcPkg"
   },
   {
     "Rank": 2,
@@ -705,11 +705,11 @@
   },
   {
     "Rank": 1,
-    "Command": "Revoke-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing "
+    "Command": "Revoke-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing"
   },
   {
     "Rank": 1,
-    "Command": "Revoke-SPOSiteDesignRights 44252d09-62c4-4913-9eb0-a2a8b8d7f863 "
+    "Command": "Revoke-SPOSiteDesignRights 44252d09-62c4-4913-9eb0-a2a8b8d7f863"
   },
   {
     "Rank": 1,
@@ -781,7 +781,7 @@
   },
   {
     "Rank": 1,
-    "Command": "Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing "
+    "Command": "Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing"
   },
   {
     "Rank": 1,
@@ -841,7 +841,7 @@
   },
   {
     "Rank": 7,
-    "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly "
+    "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly"
   },
   {
     "Rank": 8,
@@ -857,7 +857,7 @@
   },
   {
     "Rank": 1,
-    "Command": "Set-SPOSiteDesign "
+    "Command": "Set-SPOSiteDesign"
   },
   {
     "Rank": 1,

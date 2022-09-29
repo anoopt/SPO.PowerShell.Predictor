@@ -3,15 +3,20 @@ using SPO.PowerShell.Predictor.Abstractions.Model;
 using System.Management.Automation.Subsystem.Prediction;
 using System.Reflection;
 using System.Text.Json;
+using System.Net.Http.Json;
 
 namespace SPO.PowerShell.Predictor.Services
 {
     public class SPOPowerShellPredictorService : ISPOPowerShellPredictorService
     {
         private List<Suggestion>? _allPredictiveSuggestions;
+        private readonly HttpClient _client;
+        private readonly string _commandsFilePath;
 
         public SPOPowerShellPredictorService()
         {
+            _commandsFilePath = SPOPowerShellPredictorConstants.CommandsFilePath; //Add modifications in future if needed
+            _client = new HttpClient();
             RequestAllPredictiveCommands();
         }
         protected virtual void RequestAllPredictiveCommands()
@@ -20,10 +25,34 @@ namespace SPO.PowerShell.Predictor.Services
             //TODO: if the http request fails then fallback to local JSON file?
             _ = Task.Run(async () =>
             {
-                string executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-                string fileName = Path.Combine($"{executableLocation}{SPOPowerShellPredictorConstants.SuggestionsFileRelativePath}", SPOPowerShellPredictorConstants.SuggestionsFileName);
-                string jsonString = await File.ReadAllTextAsync(fileName);
-                _allPredictiveSuggestions = JsonSerializer.Deserialize<List<Suggestion>>(jsonString)!;
+                try
+                {
+                    _allPredictiveSuggestions = await _client.GetFromJsonAsync<List<Suggestion>>(_commandsFilePath);
+                }
+                catch (Exception e)
+                {
+                    _allPredictiveSuggestions = null;
+                }
+
+                if (_allPredictiveSuggestions == null)
+                {
+                    try
+                    {
+                        string executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                        string fileName = Path.Combine($"{executableLocation}{SPOPowerShellPredictorConstants.SuggestionsFileRelativePath}", SPOPowerShellPredictorConstants.SuggestionsFileName);
+                        string jsonString = await File.ReadAllTextAsync(fileName);
+                        _allPredictiveSuggestions = JsonSerializer.Deserialize<List<Suggestion>>(jsonString)!;
+                    }
+                    catch (Exception e)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.Write("Unable to load predictions. Press enter to continue.");
+                        Console.ResetColor();
+                        _allPredictiveSuggestions = null;
+                    }
+                }
+
+                
             });
         }
 
@@ -31,6 +60,11 @@ namespace SPO.PowerShell.Predictor.Services
         {
             var input = context.InputAst.Extent.Text;
             if (string.IsNullOrWhiteSpace(input))
+            {
+                return null;
+            }
+
+            if (_allPredictiveSuggestions == null)
             {
                 return null;
             }
