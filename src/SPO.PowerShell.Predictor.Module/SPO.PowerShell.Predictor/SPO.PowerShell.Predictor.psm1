@@ -35,6 +35,8 @@ $spoPowerShellModule = Get-Module -Name Microsoft.Online.SharePoint.PowerShell -
 if($spoPowerShellModule -eq $null) {
     $shouldImportPredictor = $false
     throw "Please make sure you either have SharePoint Online Management shell installed or have installed Microsoft.Online.SharePoint.PowerShell module. See - https://learn.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps"
+} else {
+    Import-Module -Name Microsoft.Online.SharePoint.PowerShell
 }
 
 # Import the predictor module
