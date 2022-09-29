@@ -7,11 +7,12 @@ using System.Net.Http.Json;
 
 namespace SPO.PowerShell.Predictor.Services
 {
-    public class SPOPowerShellPredictorService : ISPOPowerShellPredictorService
+    public sealed class SPOPowerShellPredictorService : ISPOPowerShellPredictorService
     {
+        private SuggestionsFile? _suggestionsFile;
         private List<Suggestion>? _allPredictiveSuggestions;
         private readonly HttpClient _client;
-        private readonly string _commandsFilePath;
+        private readonly string? _commandsFilePath;
 
         public SPOPowerShellPredictorService()
         {
@@ -19,17 +20,26 @@ namespace SPO.PowerShell.Predictor.Services
             _client = new HttpClient();
             RequestAllPredictiveCommands();
         }
-        protected virtual void RequestAllPredictiveCommands()
+
+        private void SetPredictiveSuggestions()
         {
-            //TODO: Decide if we need to make an http request here to get all the commands
-            //TODO: if the http request fails then fallback to local JSON file?
+            var lastUpdatedOn = _suggestionsFile?.LastUpdatedOn;
+            _allPredictiveSuggestions = _suggestionsFile?.Suggestions;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write($"WARNING: Predictions displayed will be as of {lastUpdatedOn}. So, you might not see some examples being predicted. Press enter to continue.");
+            Console.ResetColor();
+        }
+
+        private void RequestAllPredictiveCommands()
+        {
             _ = Task.Run(async () =>
             {
                 try
                 {
-                    _allPredictiveSuggestions = await _client.GetFromJsonAsync<List<Suggestion>>(_commandsFilePath);
+                    _suggestionsFile = await _client.GetFromJsonAsync<SuggestionsFile>(_commandsFilePath);
+                    SetPredictiveSuggestions();
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     _allPredictiveSuggestions = null;
                 }
@@ -38,12 +48,13 @@ namespace SPO.PowerShell.Predictor.Services
                 {
                     try
                     {
-                        string executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-                        string fileName = Path.Combine($"{executableLocation}{SPOPowerShellPredictorConstants.SuggestionsFileRelativePath}", SPOPowerShellPredictorConstants.SuggestionsFileName);
-                        string jsonString = await File.ReadAllTextAsync(fileName);
-                        _allPredictiveSuggestions = JsonSerializer.Deserialize<List<Suggestion>>(jsonString)!;
+                        var executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                        var fileName = Path.Combine($"{executableLocation}{SPOPowerShellPredictorConstants.SuggestionsFileRelativePath}", SPOPowerShellPredictorConstants.SuggestionsFileName);
+                        var jsonString = await File.ReadAllTextAsync(fileName);
+                        _suggestionsFile = JsonSerializer.Deserialize<SuggestionsFile>(jsonString);
+                        SetPredictiveSuggestions();
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
                         Console.ForegroundColor = ConsoleColor.DarkRed;
                         Console.Write("Unable to load predictions. Press enter to continue.");
@@ -56,7 +67,7 @@ namespace SPO.PowerShell.Predictor.Services
             });
         }
 
-        public virtual List<PredictiveSuggestion>? GetSuggestions(PredictionContext context)
+        public List<PredictiveSuggestion>? GetSuggestions(PredictionContext context)
         {
             var input = context.InputAst.Extent.Text;
             if (string.IsNullOrWhiteSpace(input))
@@ -71,7 +82,7 @@ namespace SPO.PowerShell.Predictor.Services
 
             //TODO: Decide how the source data should be structured and then add a logic to get filtered suggestions
             var filteredSuggestions = _allPredictiveSuggestions?.
-                FindAll(pc => pc.Command.ToLower().StartsWith(input.ToLower())).
+                FindAll(pc => pc.Command != null && pc.Command.ToLower().StartsWith(input.ToLower())).
                 OrderBy(pc => pc.Rank);
 
             var result = filteredSuggestions?.Select(fs => new PredictiveSuggestion(fs.Command)).ToList();

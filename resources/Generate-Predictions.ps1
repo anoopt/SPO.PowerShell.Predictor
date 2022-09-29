@@ -1,5 +1,5 @@
 try {
-    $json = @();
+    $suggestions = @();
     # get all files in the srcfiles folder
     $files = Get-ChildItem -Path ".\spopsdocs" -Filter "*.md" -Recurse;
 
@@ -40,7 +40,7 @@ try {
             # if the item value begins with the name of the file then add it to the json
             if ($value.ToLower() -match "^$($baseName).*") {
 
-                $json += @{
+                $suggestions += @{
                     "Command" = $value
                     "Rank"    = $i
                 }
@@ -49,6 +49,12 @@ try {
         }
     }
 
+    # add FileName, LastUpdatedOn and Suggestions to a new json object
+    $json = [ordered]@{
+        "FileName"       = "SPO.PowerShell.Suggestions.json"
+        "LastUpdatedOn"  = (Get-Date).ToString("dd MMMM yyyy")
+        "Suggestions"    = $suggestions
+    }
 
     # write the json to a file
     $json | ConvertTo-Json -Depth 10 | Out-File -FilePath ".\SPO.PowerShell.Suggestions.json" -Encoding UTF8 -Force;   
