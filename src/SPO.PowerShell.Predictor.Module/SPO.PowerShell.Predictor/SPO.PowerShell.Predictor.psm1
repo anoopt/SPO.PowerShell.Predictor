@@ -30,12 +30,17 @@ elseif ($psReadlineModule -eq $null) {
     }
 }
 
+$spoPowerShellModule = Get-Module -Name Microsoft.Online.SharePoint.PowerShell -ListAvailable | Select Name,Version
+
+if($spoPowerShellModule -eq $null) {
+    $shouldImportPredictor = $false
+    throw "Please make sure you either have SharePoint Online Management shell installed or have installed Microsoft.Online.SharePoint.PowerShell module. See - https://learn.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps"
+}
+
 # Import the predictor module
 if ($shouldImportPredictor) {
     try {
         Import-Module (Join-Path -Path $PSScriptRoot -ChildPath SPO.PowerShell.Predictor.dll);
-        Write-Host "Module imported" -ForegroundColor Green
-        Write-Warning "Make sure you either have SharePoint Online Management shell installed or have installed Microsoft.Online.SharePoint.PowerShell module for the cmdlets to work. If you have installed it already then ignore this warning.";
     }
     catch {
         Write-Error "An error occurred while importing the module. Details:"
