@@ -59,11 +59,7 @@ try {
     }
 
     # write the json to a file
-    $json | ConvertTo-Json -Depth 10 | Out-File -FilePath ".\resources\SPO.PowerShell.Suggestions.live.json" -Encoding UTF8 -Force;
-
-    # Set-content to the new json object
-    # $json | ConvertTo-Json -Depth 10 | Set-Content -Path "SPO.PowerShell.Suggestions.live.json" -Encoding utf8 -Force
-
+    $json | ConvertTo-Json -Depth 10 | Out-File -FilePath ".\resources\SPO.PowerShell.Suggestions.json" -Encoding UTF8 -Force;
 }
 catch {
     Write-Error "Unable to create prediction commands file";
