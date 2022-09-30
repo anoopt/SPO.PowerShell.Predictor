@@ -58,10 +58,16 @@ try {
         "Suggestions"   = $suggestions
     }
 
-    $json
+    # check if file named SPO.PowerShell.Suggestions.live.json exists if not create it
+    if (!(Test-Path -Path "SPO.PowerShell.Suggestions.live.json")) {
+        New-Item -Path "SPO.PowerShell.Suggestions.live.json" -ItemType File -Force
+    }
+
+    # write the json to a file
+    $json | ConvertTo-Json -Depth 10 | Out-File -FilePath ".\SPO.PowerShell.Suggestions.live.json" -Encoding UTF8 -Force;
 
     # Set-content to the new json object
-    Set-Content ./SPO.PowerShell.Suggestions.live.json -Value ($json | ConvertTo-Json -Depth 10) -Force
+    # $json | ConvertTo-Json -Depth 10 | Set-Content -Path "SPO.PowerShell.Suggestions.live.json" -Encoding utf8 -Force
 
 }
 catch {
