@@ -59,7 +59,7 @@ try {
     }
 
     # Set-content to the new json object
-    Set-Content -Path ./SPO.PowerShell.Suggestions.live.json -Value $json | ConvertTo-Json -Depth 10 -Encoding utf8 -Force
+    Set-Content -Path ../resources/SPO.PowerShell.Suggestions.live.json -Value $json | ConvertTo-Json -Depth 10 -Encoding utf8 -Force
 
 }
 catch {
