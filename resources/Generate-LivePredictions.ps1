@@ -10,7 +10,7 @@ try {
     $options = [Text.RegularExpressions.RegexOptions]'IgnoreCase, CultureInvariant';
 
     # loop through each file
-    $files | ForEach-Object {
+    $files[0..2] | ForEach-Object {
     
         # get file name without extension md
         $baseName = $_.Name.ToLower().Replace(".md", "");
@@ -58,8 +58,14 @@ try {
         "Suggestions"   = $suggestions
     }
 
-    # write the json to a file
-    $json | ConvertTo-Json -Depth 10 | Out-File -FilePath ".\SPO.PowerShell.Suggestions.live.json" -Encoding UTF8 -Force;
+    # check if file named SPO.PowerShell.Suggestions.live.json exists if not create it
+    if (!(Test-Path -Path "SPO.PowerShell.Suggestions.live.json")) {
+        New-Item -Path "SPO.PowerShell.Suggestions.live.json" -ItemType File -Force
+    }
+
+    # Set-content to the new json object
+    $json | ConvertTo-Json -Depth 10 | Set-Content -Path "SPO.PowerShell.Suggestions.live.json" -Encoding utf8 -Force
+
 }
 catch {
     Write-Error "Unable to create prediction commands file";
