@@ -1,0 +1,16 @@
+name: Generate suggestions JSON file
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '30 2 * * *'
+
+jobs:
+  executescript:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run script to generate suggestions JSON file 
+        run: |
+          ./resources/Generate-LivePredictions.ps1
