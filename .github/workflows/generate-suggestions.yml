@@ -15,3 +15,9 @@ jobs:
       - name: Run script to generate suggestions JSON file 
         run: |
           ./resources/Generate-LivePredictions.ps1
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v6
+        with:
+          message: 'Nightly document generation'
+          push: true
+          branch: main
