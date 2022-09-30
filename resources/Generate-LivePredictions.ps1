@@ -58,6 +58,8 @@ try {
         "Suggestions"   = $suggestions
     }
 
+    $json
+
     # Set-content to the new json object
     Set-Content ./SPO.PowerShell.Suggestions.live.json -Value ($json | ConvertTo-Json -Depth 10) -Force
 

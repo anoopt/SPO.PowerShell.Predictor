@@ -10,7 +10,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-
+        with:
+          ref: main
       - name: Run script to generate suggestions JSON file 
         run: |
           ./resources/Generate-LivePredictions.ps1
