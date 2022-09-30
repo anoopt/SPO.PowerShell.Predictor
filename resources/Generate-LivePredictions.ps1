@@ -10,7 +10,7 @@ try {
     $options = [Text.RegularExpressions.RegexOptions]'IgnoreCase, CultureInvariant';
 
     # loop through each file
-    $files[0..2] | ForEach-Object {
+    $files| ForEach-Object {
     
         # get file name without extension md
         $baseName = $_.Name.ToLower().Replace(".md", "");
