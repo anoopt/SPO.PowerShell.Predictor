@@ -25,9 +25,15 @@ namespace SPO.PowerShell.Predictor.Services
         {
             var lastUpdatedOn = _suggestionsFile?.LastUpdatedOn;
             _allPredictiveSuggestions = _suggestionsFile?.Suggestions;
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write($"WARNING: Predictions displayed will be as of {lastUpdatedOn}. So, you might not see some examples being predicted. Press enter to continue.");
-            Console.ResetColor();
+
+            var today = DateTime.Now.ToString("dd MMMM yyyy");
+
+            if (lastUpdatedOn != today)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write($"WARNING: Predictions displayed will be as of {lastUpdatedOn}. So, you might not see some examples being predicted. Press enter to continue.");
+                Console.ResetColor();
+            }
         }
 
         private void RequestAllPredictiveCommands()
