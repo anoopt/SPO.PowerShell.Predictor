@@ -3,19 +3,22 @@ try {
     # get all files in the srcfiles folder
     $files = Get-ChildItem -Path ".\spopsdocs" -Filter "*.md" -Recurse;
 
+    # create a regex pattern to match the example code
+    $pattern = "(?s)(?<=``````powershell)(.*?)(?=``````)"
+    $options = [Text.RegularExpressions.RegexOptions]'IgnoreCase, CultureInvariant';
+    
+    # set id to 1
+    $id = 1;
+
     # loop through each file
     $files | ForEach-Object {
     
         # get file name without extension
-        $baseName = $_.BaseName.ToLower();
+        $baseName = $_.BaseName;
 
         # get the file data
         $fileData = Get-Content $_.FullName -Raw;
-        # create a regex pattern to match the example code
-    
-        $pattern = "(?s)(?<=``````powershell)(.*?)(?=``````)"
-        $options = [Text.RegularExpressions.RegexOptions]'IgnoreCase, CultureInvariant';
-    
+        
         $result = [regex]::Matches($fileData, $pattern, $options);
 
         $i = 1;
@@ -38,13 +41,16 @@ try {
             $value = $value -replace "`` ", "";
 
             # if the item value begins with the name of the file then add it to the json
-            if ($value.ToLower() -match "^$($baseName).*") {
+            if ($value.ToLower() -match "^$($baseName.ToLower()).*") {
 
                 $suggestions += @{
+                    "CommandName" = $baseName
                     "Command" = $value
                     "Rank"    = $i
+                    "Id"      = $id
                 }
                 $i++;
+                $id++;
             }
         }
     }

@@ -63,6 +63,16 @@ Import-Module -Name SPO.PowerShell.Predictor
 
 Once imported, start typing SharePoint Online Management Shell cmdlet (e.g. `Connect-SPOService`) and see the predictions loading.
 
+## Changing predictions search method
+
+By default the module uses `Contains` search i.e. it shows predictions that contain the input entered. This can be changed to either `StartsWith` or `Fuzzy` by using the following cmdlet
+
+```powershell
+Set-PnPPredictorSearch -Method StartsWith|Contains|Fuzzy
+```
+
+`StartsWith` - as per the name shows predictions that start with the entered input
+`Fuzzy` - does a Fuzzy search and returns predictions. Sometimes the results might not be as per the expectaion in this case.
 ## Uninstallation
 
 Once installed and enabled, SPO PowerShell Predictor is loaded in the PowerShell profile.

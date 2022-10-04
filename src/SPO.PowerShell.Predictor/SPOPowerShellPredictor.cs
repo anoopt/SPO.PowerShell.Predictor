@@ -22,15 +22,17 @@ namespace SPO.PowerShell.Predictor
         /// Gets the description of a subsystem implementation.
         /// </summary>
         public string Description => "SPO PowerShell predictor";
-
+        
+        private Settings _settings;
+        
         private ISPOPowerShellPredictorService _SPOPowerShellPredictorService;
 
 
         internal SPOPowerShellPredictor(string guid)
         {
             _guid = new Guid(guid);
-            _SPOPowerShellPredictorService = new SPOPowerShellPredictorService();
-
+            _settings = Settings.GetSettings();
+            _SPOPowerShellPredictorService = new SPOPowerShellPredictorService(_settings);
         }
 
         /// <summary>

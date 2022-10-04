@@ -9,12 +9,15 @@ try {
     $pattern = "(?s)(?<=``````powershell)(.*?)(?=``````)"
     $options = [Text.RegularExpressions.RegexOptions]'IgnoreCase, CultureInvariant';
 
+    # set id to 1
+    $id = 1;
+
     # loop through each file
     $files | ForEach-Object {
     
         # get file name without extension md
-        $baseName = $_.Name.ToLower().Replace(".md", "");
-
+        $baseName = $_.Name.Replace(".md", "");
+        
         # get the file data
         $fileData = Invoke-WebRequest $_.download_url;
 
@@ -40,13 +43,16 @@ try {
             $value = $value -replace "`` ", "";
 
             # if the item value begins with the name of the file then add it to the json
-            if ($value.ToLower() -match "^$($baseName).*") {
+            if ($value.ToLower() -match "^$($baseName.ToLower()).*") {
 
                 $suggestions += @{
+                    "CommandName" = $baseName
                     "Command" = $value.Trim()
                     "Rank"    = $i
+                    "Id"      = $id
                 }
                 $i++;
+                $id++;
             }
         }
     }
@@ -59,7 +65,7 @@ try {
     }
 
     # write the json to a file
-    $json | ConvertTo-Json -Depth 10 | Out-File -FilePath ".\resources\SPO.PowerShell.Suggestions.json" -Encoding UTF8 -Force;
+    $json | ConvertTo-Json -Depth 10 | Out-File -FilePath ".\SPO.PowerShell.Suggestions.docs.json" -Encoding UTF8 -Force;
 }
 catch {
     Write-Error "Unable to create prediction commands file";
