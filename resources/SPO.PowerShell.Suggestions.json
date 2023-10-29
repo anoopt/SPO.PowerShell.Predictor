@@ -1,6 +1,6 @@
 {
   "FileName": "SPO.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "22 October 2023",
+  "LastUpdatedOn": "29 October 2023",
   "Suggestions": [
     {
       "Command": "Add-SPOGeoAdministrator -UserPrincipalName admin@contoso.onmicrosoft.com",
