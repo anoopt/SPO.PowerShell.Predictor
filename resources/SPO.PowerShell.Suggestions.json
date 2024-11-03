@@ -1,2178 +1,2178 @@
 {
   "FileName": "SPO.PowerShell.Suggestions.json",
-  "LastUpdatedOn": "27 October 2024",
+  "LastUpdatedOn": "03 November 2024",
   "Suggestions": [
     {
-      "Id": 1,
-      "Rank": 1,
       "CommandName": "Add-SPOGeoAdministrator",
-      "Command": "Add-SPOGeoAdministrator -UserPrincipalName admin@contoso.onmicrosoft.com"
+      "Id": 1,
+      "Command": "Add-SPOGeoAdministrator -UserPrincipalName admin@contoso.onmicrosoft.com",
+      "Rank": 1
     },
     {
-      "Id": 2,
-      "Rank": 1,
       "CommandName": "Add-SPOHubSiteAssociation",
-      "Command": "Add-SPOHubSiteAssociation https://contoso.sharepoint.com/sites/Research -HubSite https://contoso.sharepoint.com/sites/Marketing"
+      "Id": 2,
+      "Command": "Add-SPOHubSiteAssociation https://contoso.sharepoint.com/sites/Research -HubSite https://contoso.sharepoint.com/sites/Marketing",
+      "Rank": 1
     },
     {
-      "Id": 3,
-      "Rank": 1,
       "CommandName": "Add-SPOHubToHubAssociation",
-      "Command": "Add-SPOHubToHubAssociation -Source 7b6fd3a3-b029-4eb0-8e00-ba4a3949807d -Target 43a36572-37ec-45c3-9058-061a2db4cd26"
+      "Id": 3,
+      "Command": "Add-SPOHubToHubAssociation -Source 7b6fd3a3-b029-4eb0-8e00-ba4a3949807d -Target 43a36572-37ec-45c3-9058-061a2db4cd26",
+      "Rank": 1
     },
     {
+      "CommandName": "Add-SPOOrgAssetsLibrary",
       "Id": 4,
-      "Rank": 1,
-      "CommandName": "Add-SPOOrgAssetsLibrary",
-      "Command": "Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg"
+      "Command": "Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg",
+      "Rank": 1
     },
     {
+      "CommandName": "Add-SPOOrgAssetsLibrary",
       "Id": 5,
-      "Rank": 2,
-      "CommandName": "Add-SPOOrgAssetsLibrary",
-      "Command": "Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Templates -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Templates/contosologo.jpg -OrgAssetType OfficeTemplateLibrary"
+      "Command": "Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Templates -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Templates/contosologo.jpg -OrgAssetType OfficeTemplateLibrary",
+      "Rank": 2
     },
     {
-      "Id": 6,
-      "Rank": 1,
       "CommandName": "Add-SPOSiteCollectionAppCatalog",
-      "Command": "Add-SPOSiteCollectionAppCatalog -Site \"https://contoso.sharepoint.com/sites/FinanceTeamsite\""
+      "Id": 6,
+      "Command": "Add-SPOSiteCollectionAppCatalog -Site \"https://contoso.sharepoint.com/sites/FinanceTeamsite\"",
+      "Rank": 1
     },
     {
-      "Id": 7,
-      "Rank": 1,
       "CommandName": "Add-SPOSiteDesign",
-      "Command": "Add-SPOSiteDesign `"
+      "Id": 7,
+      "Command": "Add-SPOSiteDesign `",
+      "Rank": 1
     },
     {
-      "Id": 8,
-      "Rank": 1,
       "CommandName": "Add-SPOSiteDesignTask",
-      "Command": "Add-SPOSiteDesignTask -SiteDesignId 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectawesome\""
+      "Id": 8,
+      "Command": "Add-SPOSiteDesignTask -SiteDesignId 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectawesome\"",
+      "Rank": 1
     },
     {
-      "Id": 9,
-      "Rank": 1,
       "CommandName": "Add-SPOTheme",
-      "Command": "Add-SPOTheme -Identity \"Custom Cyan\" -Palette $themepalette -IsInverted $false -Overwrite"
+      "Id": 9,
+      "Command": "Add-SPOTheme -Identity \"Custom Cyan\" -Palette $themepalette -IsInverted $false -Overwrite",
+      "Rank": 1
     },
     {
+      "CommandName": "Add-SPOUser",
       "Id": 10,
-      "Rank": 1,
-      "CommandName": "Add-SPOUser",
-      "Command": "Add-SPOUser -Site https://contoso.sharepoint.com/sites/sc1 -LoginName joe.healy@contoso.com -Group \"SC1 Owners\""
+      "Command": "Add-SPOUser -Site https://contoso.sharepoint.com/sites/sc1 -LoginName joe.healy@contoso.com -Group \"SC1 Owners\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Add-SPOUser",
       "Id": 11,
-      "Rank": 2,
-      "CommandName": "Add-SPOUser",
-      "Command": "Add-SPOUser -Site https://contoso.sharepoint.com -LoginName melissa.kerr@contoso.com -Group \"Team Site Members\""
+      "Command": "Add-SPOUser -Site https://contoso.sharepoint.com -LoginName melissa.kerr@contoso.com -Group \"Team Site Members\"",
+      "Rank": 2
     },
     {
+      "CommandName": "Approve-SPOTenantServicePrincipalPermissionGrant",
       "Id": 12,
-      "Rank": 1,
-      "CommandName": "Approve-SPOTenantServicePrincipalPermissionGrant",
-      "Command": "Approve-SPOTenantServicePrincipalPermissionGrant -Resource <string> -Scope <string>"
+      "Command": "Approve-SPOTenantServicePrincipalPermissionGrant -Resource <string> -Scope <string>",
+      "Rank": 1
     },
     {
+      "CommandName": "Approve-SPOTenantServicePrincipalPermissionGrant",
       "Id": 13,
-      "Rank": 2,
-      "CommandName": "Approve-SPOTenantServicePrincipalPermissionGrant",
-      "Command": "Approve-SPOTenantServicePrincipalPermissionGrant -Resource \"Microsoft Graph\" -Scope \"Mail.Read\""
+      "Command": "Approve-SPOTenantServicePrincipalPermissionGrant -Resource \"Microsoft Graph\" -Scope \"Mail.Read\"",
+      "Rank": 2
     },
     {
-      "Id": 14,
-      "Rank": 1,
       "CommandName": "Approve-SPOTenantServicePrincipalPermissionRequest",
-      "Command": "Approve-SPOTenantServicePrincipalPermissionRequest -RequestId <Guid>"
+      "Id": 14,
+      "Command": "Approve-SPOTenantServicePrincipalPermissionRequest -RequestId <Guid>",
+      "Rank": 1
     },
     {
+      "CommandName": "Connect-SPOService",
       "Id": 15,
-      "Rank": 1,
-      "CommandName": "Connect-SPOService",
-      "Command": "Connect-SPOService -Url https://contoso-admin.sharepoint.com -credential admin@contoso.com"
+      "Command": "Connect-SPOService -Url https://contoso-admin.sharepoint.com -credential admin@contoso.com",
+      "Rank": 1
     },
     {
+      "CommandName": "Connect-SPOService",
       "Id": 16,
-      "Rank": 2,
-      "CommandName": "Connect-SPOService",
-      "Command": "Connect-SPOService -Url https://contoso-admin.sharepoint.com"
+      "Command": "Connect-SPOService -Url https://contoso-admin.sharepoint.com",
+      "Rank": 2
     },
     {
+      "CommandName": "Connect-SPOService",
       "Id": 17,
-      "Rank": 3,
-      "CommandName": "Connect-SPOService",
-      "Command": "Connect-SPOService -Url https://contoso-admin.sharepoint.com -Region ITAR"
+      "Command": "Connect-SPOService -Url https://contoso-admin.sharepoint.com -Region ITAR",
+      "Rank": 3
     },
     {
+      "CommandName": "Connect-SPOService",
       "Id": 18,
-      "Rank": 4,
-      "CommandName": "Connect-SPOService",
-      "Command": "Connect-SPOService -Credential $creds -Url https://tenant-admin.sharepoint.com -ModernAuth $true -AuthenticationUrl https://login.microsoftonline.com/organizations"
+      "Command": "Connect-SPOService -Credential $creds -Url https://tenant-admin.sharepoint.com -ModernAuth $true -AuthenticationUrl https://login.microsoftonline.com/organizations",
+      "Rank": 4
     },
     {
+      "CommandName": "ConvertTo-SPOMigrationEncryptedPackage",
       "Id": 19,
-      "Rank": 1,
-      "CommandName": "ConvertTo-SPOMigrationEncryptedPackage",
-      "Command": "ConvertTo-SPOMigrationEncryptedPackage -EncryptionParameters SHA256 -MigrationSourceLocations $MigrationPackageLocation -NoLogFile -TargetFilesPath $TargetFilesPath -TargetPackagePath $TargetPackagePath"
+      "Command": "ConvertTo-SPOMigrationEncryptedPackage -EncryptionParameters SHA256 -MigrationSourceLocations $MigrationPackageLocation -NoLogFile -TargetFilesPath $TargetFilesPath -TargetPackagePath $TargetPackagePath",
+      "Rank": 1
     },
     {
+      "CommandName": "ConvertTo-SPOMigrationEncryptedPackage",
       "Id": 20,
-      "Rank": 2,
-      "CommandName": "ConvertTo-SPOMigrationEncryptedPackage",
-      "Command": "ConvertTo-SPOMigrationEncryptedPackage -EncryptionParameters SHA384 -MigrationSourceLocations $MigrationPackageLocation -TargetFilesPath $TargetFilesPath -TargetPackagePath $TargetPackagePath"
+      "Command": "ConvertTo-SPOMigrationEncryptedPackage -EncryptionParameters SHA384 -MigrationSourceLocations $MigrationPackageLocation -TargetFilesPath $TargetFilesPath -TargetPackagePath $TargetPackagePath",
+      "Rank": 2
     },
     {
+      "CommandName": "Copy-SPOPersonalSitePage",
       "Id": 21,
-      "Rank": 1,
-      "CommandName": "Copy-SPOPersonalSitePage",
-      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso-my.sharepoint.com/personal/testuser_onmicrosoft_com' -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -PageName 'TestPage.aspx' -Confirm"
+      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso-my.sharepoint.com/personal/testuser_onmicrosoft_com' -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -PageName 'TestPage.aspx' -Confirm",
+      "Rank": 1
     },
     {
+      "CommandName": "Copy-SPOPersonalSitePage",
       "Id": 22,
-      "Rank": 2,
-      "CommandName": "Copy-SPOPersonalSitePage",
-      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso-my.sharepoint.com/personal/testuser_onmicrosoft_com' -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -PageName 'TestPage.aspx' -DeleteSourcePage"
+      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso-my.sharepoint.com/personal/testuser_onmicrosoft_com' -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -PageName 'TestPage.aspx' -DeleteSourcePage",
+      "Rank": 2
     },
     {
+      "CommandName": "Copy-SPOPersonalSitePage",
       "Id": 23,
-      "Rank": 3,
-      "CommandName": "Copy-SPOPersonalSitePage",
-      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso.sharepoint.com/sites/sourcesite' -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -PageName 'TestPage.aspx' -DeleteSourcePage -Confirm"
+      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso.sharepoint.com/sites/sourcesite' -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -PageName 'TestPage.aspx' -DeleteSourcePage -Confirm",
+      "Rank": 3
     },
     {
+      "CommandName": "Copy-SPOPersonalSitePage",
       "Id": 24,
-      "Rank": 4,
-      "CommandName": "Copy-SPOPersonalSitePage",
-      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso-my.sharepoint.com/personal/testuser1_onmicrosoft_com' -DestinationSite 'https://contoso-my.sharepoint.com/personal/testuser2_onmicrosoft_com' -PageName 'TestPage.aspx' -DeleteSourcePage -Confirm"
+      "Command": "Copy-SPOPersonalSitePage -SourceSite 'https://contoso-my.sharepoint.com/personal/testuser1_onmicrosoft_com' -DestinationSite 'https://contoso-my.sharepoint.com/personal/testuser2_onmicrosoft_com' -PageName 'TestPage.aspx' -DeleteSourcePage -Confirm",
+      "Rank": 4
     },
     {
-      "Id": 25,
-      "Rank": 1,
       "CommandName": "Deny-SPOTenantServicePrincipalPermissionRequest",
-      "Command": "Deny-SPOTenantServicePrincipalPermissionRequest -RequestId <Guid>"
+      "Id": 25,
+      "Command": "Deny-SPOTenantServicePrincipalPermissionRequest -RequestId <Guid>",
+      "Rank": 1
     },
     {
+      "CommandName": "Disable-SPOTenantServicePrincipal",
       "Id": 26,
-      "Rank": 1,
-      "CommandName": "Disable-SPOTenantServicePrincipal",
-      "Command": "Disable-SPOTenantServicePrincipal"
+      "Command": "Disable-SPOTenantServicePrincipal",
+      "Rank": 1
     },
     {
+      "CommandName": "Disable-SPOTenantServicePrincipal",
       "Id": 27,
-      "Rank": 2,
-      "CommandName": "Disable-SPOTenantServicePrincipal",
-      "Command": "Disable-SPOTenantServicePrincipal"
+      "Command": "Disable-SPOTenantServicePrincipal",
+      "Rank": 2
     },
     {
-      "Id": 28,
-      "Rank": 1,
       "CommandName": "Disconnect-SPOService",
-      "Command": "Disconnect-SPOService"
+      "Id": 28,
+      "Command": "Disconnect-SPOService",
+      "Rank": 1
     },
     {
-      "Id": 29,
-      "Rank": 1,
       "CommandName": "Enable-SPOCommSite",
-      "Command": "Enable-SPOCommSite -SiteUrl https://contoso.sharepoint.com"
+      "Id": 29,
+      "Command": "Enable-SPOCommSite -SiteUrl https://contoso.sharepoint.com",
+      "Rank": 1
     },
     {
-      "Id": 30,
-      "Rank": 1,
       "CommandName": "Enable-SPOTenantServicePrincipal",
-      "Command": "Enable-SPOTenantServicePrincipal"
+      "Id": 30,
+      "Command": "Enable-SPOTenantServicePrincipal",
+      "Rank": 1
     },
     {
+      "CommandName": "Export-SPOQueryLogs",
       "Id": 31,
-      "Rank": 1,
-      "CommandName": "Export-SPOQueryLogs",
-      "Command": "Export-SPOQueryLogs -LoginName user1@contoso.sharepoint.com"
+      "Command": "Export-SPOQueryLogs -LoginName user1@contoso.sharepoint.com",
+      "Rank": 1
     },
     {
+      "CommandName": "Export-SPOQueryLogs",
       "Id": 32,
-      "Rank": 2,
-      "CommandName": "Export-SPOQueryLogs",
-      "Command": "Export-SPOQueryLogs -LoginName user1@contoso.sharepoint.com -StartTime \"2018-10-21\" -OutputFolder \"c:\\users\\contosoadmin\\Documents\""
+      "Command": "Export-SPOQueryLogs -LoginName user1@contoso.sharepoint.com -StartTime \"2018-10-21\" -OutputFolder \"c:\\users\\contosoadmin\\Documents\"",
+      "Rank": 2
     },
     {
-      "Id": 33,
-      "Rank": 1,
       "CommandName": "Export-SPOUserInfo",
-      "Command": "Export-SPOUserInfo -LoginName joe.healy@contoso.com -site https://contoso.sharepoint.com/sites/sc1 -OutputFolder \"C:\\users\\admin\\exportfolder\""
+      "Id": 33,
+      "Command": "Export-SPOUserInfo -LoginName joe.healy@contoso.com -site https://contoso.sharepoint.com/sites/sc1 -OutputFolder \"C:\\users\\admin\\exportfolder\"",
+      "Rank": 1
     },
     {
-      "Id": 34,
-      "Rank": 1,
       "CommandName": "Export-SPOUserProfile",
-      "Command": "Export-SPOUserProfile -LoginName joe.healy@contoso.com -OutputFolder \"C:\\users\\admin\\exportfolder\""
+      "Id": 34,
+      "Command": "Export-SPOUserProfile -LoginName joe.healy@contoso.com -OutputFolder \"C:\\users\\admin\\exportfolder\"",
+      "Rank": 1
     },
     {
-      "Id": 35,
-      "Rank": 1,
       "CommandName": "Get-FileSensitivityLabelInfo",
-      "Command": "Get-FileSensitivityLabelInfo -FileUrl \"https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx\""
+      "Id": 35,
+      "Command": "Get-FileSensitivityLabelInfo -FileUrl \"https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOAppBillingPolicies",
       "Id": 36,
-      "Rank": 1,
-      "CommandName": "Get-SPOAppBillingPolicies",
-      "Command": "Get-SPOAppBillingPolicies"
+      "Command": "Get-SPOAppBillingPolicies",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOAppBillingPolicies",
       "Id": 37,
-      "Rank": 2,
-      "CommandName": "Get-SPOAppBillingPolicies",
-      "Command": "Get-SPOAppBillingPolicies"
+      "Command": "Get-SPOAppBillingPolicies",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOAppErrors",
       "Id": 38,
-      "Rank": 1,
-      "CommandName": "Get-SPOAppErrors",
-      "Command": "Get-SPOAppErrors -ProductId ba51729b-e017-409d-681a-66f1dd18f0f4"
+      "Command": "Get-SPOAppErrors -ProductId ba51729b-e017-409d-681a-66f1dd18f0f4",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOAppErrors",
       "Id": 39,
-      "Rank": 2,
-      "CommandName": "Get-SPOAppErrors",
-      "Command": "Get-SPOAppErrors -ProductId ba51729b-e017-409d-681a-66f1dd18f0f4 -StartTimeInUtc (Get-Date).AddHours(-1).ToUniversalTime()"
+      "Command": "Get-SPOAppErrors -ProductId ba51729b-e017-409d-681a-66f1dd18f0f4 -StartTimeInUtc (Get-Date).AddHours(-1).ToUniversalTime()",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOAppInfo",
       "Id": 40,
-      "Rank": 1,
-      "CommandName": "Get-SPOAppInfo",
-      "Command": "Get-SPOAppInfo -Name \"Excel Service\""
+      "Command": "Get-SPOAppInfo -Name \"Excel Service\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOAppInfo",
       "Id": 41,
-      "Rank": 2,
-      "CommandName": "Get-SPOAppInfo",
-      "Command": "Get-SPOAppInfo -ProductId 6751729b-e017-409d-681a-66f1dd18f0ff"
+      "Command": "Get-SPOAppInfo -ProductId 6751729b-e017-409d-681a-66f1dd18f0ff",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOAppInfo",
       "Id": 42,
-      "Rank": 3,
-      "CommandName": "Get-SPOAppInfo",
-      "Command": "Get-SPOAppInfo -Name \" \" | Sort Name"
+      "Command": "Get-SPOAppInfo -Name \" \" | Sort Name",
+      "Rank": 3
     },
     {
+      "CommandName": "Get-SPOApplication",
       "Id": 43,
-      "Rank": 1,
-      "CommandName": "Get-SPOApplication",
-      "Command": "Get-SPOApplication"
+      "Command": "Get-SPOApplication",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOApplication",
       "Id": 44,
-      "Rank": 2,
-      "CommandName": "Get-SPOApplication",
-      "Command": "Get-SPOApplication -OwningApplicationId <OwningApplicationId>"
+      "Command": "Get-SPOApplication -OwningApplicationId <OwningApplicationId>",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOApplication",
       "Id": 45,
-      "Rank": 3,
-      "CommandName": "Get-SPOApplication",
-      "Command": "Get-SPOApplication -OwningApplicationId <OwningApplicationId> -ApplicationId <ApplicationId>"
+      "Command": "Get-SPOApplication -OwningApplicationId <OwningApplicationId> -ApplicationId <ApplicationId>",
+      "Rank": 3
     },
     {
-      "Id": 46,
-      "Rank": 1,
       "CommandName": "Get-SPOBrowserIdleSignOut",
-      "Command": "Get-SPOBrowserIdleSignOut"
+      "Id": 46,
+      "Command": "Get-SPOBrowserIdleSignOut",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOBuiltInDesignPackageVisibility",
       "Id": 47,
-      "Rank": 1,
-      "CommandName": "Get-SPOBuiltInDesignPackageVisibility",
-      "Command": "Get-SPOBuiltInDesignPackageVisibility -DesignPackage Showcase"
+      "Command": "Get-SPOBuiltInDesignPackageVisibility -DesignPackage Showcase",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOBuiltInDesignPackageVisibility",
       "Id": 48,
-      "Rank": 2,
-      "CommandName": "Get-SPOBuiltInDesignPackageVisibility",
-      "Command": "Get-SPOBuiltInDesignPackageVisibility"
+      "Command": "Get-SPOBuiltInDesignPackageVisibility",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOBuiltInSiteTemplateSettings",
       "Id": 49,
-      "Rank": 1,
-      "CommandName": "Get-SPOBuiltInSiteTemplateSettings",
-      "Command": "Get-SPOBuiltInSiteTemplateSettings -Identity <object>"
+      "Command": "Get-SPOBuiltInSiteTemplateSettings -Identity <object>",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOBuiltInSiteTemplateSettings",
       "Id": 50,
-      "Rank": 2,
-      "CommandName": "Get-SPOBuiltInSiteTemplateSettings",
-      "Command": "Get-SPOBuiltInSiteTemplateSettings"
+      "Command": "Get-SPOBuiltInSiteTemplateSettings",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOContainer",
       "Id": 51,
-      "Rank": 1,
-      "CommandName": "Get-SPOContainer",
-      "Command": "Get-SPOContainer -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 | FT"
+      "Command": "Get-SPOContainer -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 | FT",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOContainer",
       "Id": 52,
-      "Rank": 2,
-      "CommandName": "Get-SPOContainer",
-      "Command": "Get-SPOContainer -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -Identity b66f5b2e-4cbd-4754-9ad3-8291c2c81ade"
+      "Command": "Get-SPOContainer -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -Identity b66f5b2e-4cbd-4754-9ad3-8291c2c81ade",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOContainer",
       "Id": 53,
-      "Rank": 3,
-      "CommandName": "Get-SPOContainer",
-      "Command": "Get-SPOContainer -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -Identity https://contoso.sharepoint.com/storagecontainers/CSP_b66f5b2e-4cbd-4754-9ad3-8291c2c81ade"
+      "Command": "Get-SPOContainer -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -Identity https://contoso.sharepoint.com/storagecontainers/CSP_b66f5b2e-4cbd-4754-9ad3-8291c2c81ade",
+      "Rank": 3
     },
     {
+      "CommandName": "Get-SPOContainer",
       "Id": 54,
-      "Rank": 4,
-      "CommandName": "Get-SPOContainer",
-      "Command": "Get-SPOContainer -OwningApplicationId <OwningApplicationId> -Identity <ContainerId> -Paged | FT"
+      "Command": "Get-SPOContainer -OwningApplicationId <OwningApplicationId> -Identity <ContainerId> -Paged | FT",
+      "Rank": 4
     },
     {
+      "CommandName": "Get-SPOContainer",
       "Id": 55,
-      "Rank": 5,
-      "CommandName": "Get-SPOContainer",
-      "Command": "Get-SPOContainer -OwningApplicationId <OwningApplicationId> -Identity <ContainerId> -Paged -PagingToken <Token String> | FT"
+      "Command": "Get-SPOContainer -OwningApplicationId <OwningApplicationId> -Identity <ContainerId> -Paged -PagingToken <Token String> | FT",
+      "Rank": 5
     },
     {
-      "Id": 56,
-      "Rank": 1,
       "CommandName": "Get-SPOContainerTypeConfiguration",
-      "Command": "Get-SPOContainerTypeConfiguration -ContainerTypeId 4f0af585-8dcc-0000-223d-661eb2c604e4"
+      "Id": 56,
+      "Command": "Get-SPOContainerTypeConfiguration -ContainerTypeId 4f0af585-8dcc-0000-223d-661eb2c604e4",
+      "Rank": 1
     },
     {
-      "Id": 57,
-      "Rank": 1,
       "CommandName": "Get-SPOContentEventEmailAddresses",
-      "Command": "Get-SPOContentEventEmailAddresses -Category Ransomware"
+      "Id": 57,
+      "Command": "Get-SPOContentEventEmailAddresses -Category Ransomware",
+      "Rank": 1
     },
     {
-      "Id": 58,
-      "Rank": 1,
       "CommandName": "Get-SPOContentSecurityPolicy",
-      "Command": "Get-SPOContentSecurityPolicy"
+      "Id": 58,
+      "Command": "Get-SPOContentSecurityPolicy",
+      "Rank": 1
     },
     {
-      "Id": 59,
-      "Rank": 1,
       "CommandName": "Get-SPOCrossGeoMoveReport",
-      "Command": "Get-SPOCrossGeoMoveReport -MoveJobType SiteMove -MoveState Failed"
+      "Id": 59,
+      "Command": "Get-SPOCrossGeoMoveReport -MoveJobType SiteMove -MoveState Failed",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOCrossGeoMovedUsers",
       "Id": 60,
-      "Rank": 1,
-      "CommandName": "Get-SPOCrossGeoMovedUsers",
-      "Command": "Get-SPOCrossGeoMovedUsers -Direction MoveIn"
+      "Command": "Get-SPOCrossGeoMovedUsers -Direction MoveIn",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOCrossGeoMovedUsers",
       "Id": 61,
-      "Rank": 2,
-      "CommandName": "Get-SPOCrossGeoMovedUsers",
-      "Command": "Get-SPOCrossGeoMovedUsers -Direction MoveOut"
+      "Command": "Get-SPOCrossGeoMovedUsers -Direction MoveOut",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOCrossGeoUsers",
       "Id": 62,
-      "Rank": 1,
-      "CommandName": "Get-SPOCrossGeoUsers",
-      "Command": "Get-SPOCrossGeoUsers -ValidDataLocation $true"
+      "Command": "Get-SPOCrossGeoUsers -ValidDataLocation $true",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOCrossGeoUsers",
       "Id": 63,
-      "Rank": 2,
-      "CommandName": "Get-SPOCrossGeoUsers",
-      "Command": "Get-SPOCrossGeoUsers"
+      "Command": "Get-SPOCrossGeoUsers",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOCrossGeoUsers",
       "Id": 64,
-      "Rank": 3,
-      "CommandName": "Get-SPOCrossGeoUsers",
-      "Command": "Get-SPOCrossGeoUsers -ValidDataLocation $true | where {$_.UserPrincipalName -eq 'jane@contoso.com'}"
+      "Command": "Get-SPOCrossGeoUsers -ValidDataLocation $true | where {$_.UserPrincipalName -eq 'jane@contoso.com'}",
+      "Rank": 3
     },
     {
-      "Id": 65,
-      "Rank": 1,
       "CommandName": "Get-SPOCrossTenantCompatibilityStatus",
-      "Command": "Get-SPOCrossTenantCompatibilityStatus -PartnerCrossTenantHostUrl https://contoso-my.sharepoint.com"
+      "Id": 65,
+      "Command": "Get-SPOCrossTenantCompatibilityStatus -PartnerCrossTenantHostUrl https://contoso-my.sharepoint.com",
+      "Rank": 1
     },
     {
-      "Id": 66,
-      "Rank": 1,
       "CommandName": "Get-SPOCrossTenantHostUrl",
-      "Command": "Get-SPOCrossTenantHostUrl"
+      "Id": 66,
+      "Command": "Get-SPOCrossTenantHostUrl",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPODataEncryptionPolicy",
       "Id": 67,
-      "Rank": 1,
-      "CommandName": "Get-SPODataEncryptionPolicy",
-      "Command": "Get-SPODataEncryptionPolicy"
+      "Command": "Get-SPODataEncryptionPolicy",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPODataEncryptionPolicy",
       "Id": 68,
-      "Rank": 2,
-      "CommandName": "Get-SPODataEncryptionPolicy",
-      "Command": "Get-SPODataEncryptionPolicy"
+      "Command": "Get-SPODataEncryptionPolicy",
+      "Rank": 2
     },
     {
-      "Id": 69,
-      "Rank": 1,
       "CommandName": "Get-SPODeletedSite",
-      "Command": "Get-SPODeletedSite -IncludePersonalSite"
+      "Id": 69,
+      "Command": "Get-SPODeletedSite -IncludePersonalSite",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOEnterpriseAppInsightsReport",
       "Id": 70,
-      "Rank": 1,
-      "CommandName": "Get-SPOEnterpriseAppInsightsReport",
-      "Command": "Get-SPOEnterpriseAppInsightsReport"
+      "Command": "Get-SPOEnterpriseAppInsightsReport",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOEnterpriseAppInsightsReport",
       "Id": 71,
-      "Rank": 2,
-      "CommandName": "Get-SPOEnterpriseAppInsightsReport",
-      "Command": "Get-SPOEnterpriseAppInsightsReport –ReportId 9d946216-afe7-49f5-8267-7b662435c70b"
+      "Command": "Get-SPOEnterpriseAppInsightsReport –ReportId 9d946216-afe7-49f5-8267-7b662435c70b",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOEnterpriseAppInsightsReport",
       "Id": 72,
-      "Rank": 3,
-      "CommandName": "Get-SPOEnterpriseAppInsightsReport",
-      "Command": "Get-SPOEnterpriseAppInsightsReport – ReportId 9d946216-afe7-49f5-8267-7b662435c70b -Action Download"
+      "Command": "Get-SPOEnterpriseAppInsightsReport – ReportId 9d946216-afe7-49f5-8267-7b662435c70b -Action Download",
+      "Rank": 3
     },
     {
+      "CommandName": "Get-SPOExternalUser",
       "Id": 73,
-      "Rank": 1,
-      "CommandName": "Get-SPOExternalUser",
-      "Command": "Get-SPOExternalUser -Position 0 -PageSize 2"
+      "Command": "Get-SPOExternalUser -Position 0 -PageSize 2",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOExternalUser",
       "Id": 74,
-      "Rank": 2,
-      "CommandName": "Get-SPOExternalUser",
-      "Command": "Get-SPOExternalUser -Position 2 -PageSize 2"
+      "Command": "Get-SPOExternalUser -Position 2 -PageSize 2",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOExternalUser",
       "Id": 75,
-      "Rank": 3,
-      "CommandName": "Get-SPOExternalUser",
-      "Command": "Get-SPOExternalUser -Position 0 -PageSize 30 -SiteUrl https://contoso.sharepoint.com"
+      "Command": "Get-SPOExternalUser -Position 0 -PageSize 30 -SiteUrl https://contoso.sharepoint.com",
+      "Rank": 3
     },
     {
-      "Id": 76,
-      "Rank": 1,
       "CommandName": "Get-SPOGeoAdministrator",
-      "Command": "Get-SPOGeoAdministrator"
+      "Id": 76,
+      "Command": "Get-SPOGeoAdministrator",
+      "Rank": 1
     },
     {
-      "Id": 77,
-      "Rank": 1,
       "CommandName": "Get-SPOGeoMoveCrossCompatibilityStatus",
-      "Command": "Get-SPOGeoMoveCrossCompatibilityStatus"
+      "Id": 77,
+      "Command": "Get-SPOGeoMoveCrossCompatibilityStatus",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOGeoStorageQuota",
       "Id": 78,
-      "Rank": 1,
-      "CommandName": "Get-SPOGeoStorageQuota",
-      "Command": "Get-SPOGeoStorageQuota -AllLocations"
+      "Command": "Get-SPOGeoStorageQuota -AllLocations",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOGeoStorageQuota",
       "Id": 79,
-      "Rank": 2,
-      "CommandName": "Get-SPOGeoStorageQuota",
-      "Command": "Get-SPOGeoStorageQuota"
+      "Command": "Get-SPOGeoStorageQuota",
+      "Rank": 2
     },
     {
-      "Id": 80,
-      "Rank": 1,
       "CommandName": "Get-SPOHideDefaultThemes",
-      "Command": "Get-SPOHideDefaultThemes"
+      "Id": 80,
+      "Command": "Get-SPOHideDefaultThemes",
+      "Rank": 1
     },
     {
-      "Id": 81,
-      "Rank": 1,
       "CommandName": "Get-SPOHomeSite",
-      "Command": "Get-SPOHomeSite"
+      "Id": 81,
+      "Command": "Get-SPOHomeSite",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOHubSite",
       "Id": 82,
-      "Rank": 1,
-      "CommandName": "Get-SPOHubSite",
-      "Command": "Get-SPOHubSite"
+      "Command": "Get-SPOHubSite",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOHubSite",
       "Id": 83,
-      "Rank": 2,
-      "CommandName": "Get-SPOHubSite",
-      "Command": "Get-SPOHubSite -Identity https://contoso.sharepoint.com/sites/online-marketing"
+      "Command": "Get-SPOHubSite -Identity https://contoso.sharepoint.com/sites/online-marketing",
+      "Rank": 2
     },
     {
-      "Id": 84,
-      "Rank": 1,
       "CommandName": "Get-SPOListFileVersionBatchDeleteJobProgress",
-      "Command": "Get-SPOListFileVersionBatchDeleteJobProgress -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\""
+      "Id": 84,
+      "Command": "Get-SPOListFileVersionBatchDeleteJobProgress -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\"",
+      "Rank": 1
     },
     {
-      "Id": 85,
-      "Rank": 1,
       "CommandName": "Get-SPOListFileVersionExpirationReportJobProgress",
-      "Command": "Get-SPOListFileVersionExpirationReportJobProgress -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\""
+      "Id": 85,
+      "Command": "Get-SPOListFileVersionExpirationReportJobProgress -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\"",
+      "Rank": 1
     },
     {
-      "Id": 86,
-      "Rank": 1,
       "CommandName": "Get-SPOListVersionPolicy",
-      "Command": "Get-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\""
+      "Id": 86,
+      "Command": "Get-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\"",
+      "Rank": 1
     },
     {
-      "Id": 87,
-      "Rank": 1,
       "CommandName": "Get-SPOMalwareFile",
-      "Command": "Get-SPOMalwareFile -FileUri \"https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx\""
+      "Id": 87,
+      "Command": "Get-SPOMalwareFile -FileUri \"https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx\"",
+      "Rank": 1
     },
     {
-      "Id": 88,
-      "Rank": 1,
       "CommandName": "Get-SPOMultiGeoCompanyAllowedDataLocation",
-      "Command": "Get-SPOMultiGeoCompanyAllowedDataLocation"
+      "Id": 88,
+      "Command": "Get-SPOMultiGeoCompanyAllowedDataLocation",
+      "Rank": 1
     },
     {
-      "Id": 89,
-      "Rank": 1,
       "CommandName": "Get-SPOMultiGeoExperience",
-      "Command": "Get-SPOMultiGeoExperience"
+      "Id": 89,
+      "Command": "Get-SPOMultiGeoExperience",
+      "Rank": 1
     },
     {
-      "Id": 90,
-      "Rank": 1,
       "CommandName": "Get-SPOOrgAssetsLibrary",
-      "Command": "Get-SPOOrgAssetsLibrary"
+      "Id": 90,
+      "Command": "Get-SPOOrgAssetsLibrary",
+      "Rank": 1
     },
     {
-      "Id": 91,
-      "Rank": 1,
       "CommandName": "Get-SPOOrgNewsSite",
-      "Command": "Get-SPOOrgNewsSite"
+      "Id": 91,
+      "Command": "Get-SPOOrgNewsSite",
+      "Rank": 1
     },
     {
-      "Id": 92,
-      "Rank": 1,
       "CommandName": "Get-SPOPersonalSitePageCopyProgress",
-      "Command": "Get-SPOPersonalSitePageCopyProgress -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -WorkItemId 1a95eb18-f68d-4dd4-9aaf-b47cf05cf02a"
+      "Id": 92,
+      "Command": "Get-SPOPersonalSitePageCopyProgress -DestinationSite 'https://contoso.sharepoint.com/sites/testsite' -WorkItemId 1a95eb18-f68d-4dd4-9aaf-b47cf05cf02a",
+      "Rank": 1
     },
     {
-      "Id": 93,
-      "Rank": 1,
       "CommandName": "Get-SPOPublicCdnOrigins",
-      "Command": "Get-SPOPublicCdnOrigins | Fl"
+      "Id": 93,
+      "Command": "Get-SPOPublicCdnOrigins | Fl",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 94,
-      "Rank": 1,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite"
+      "Command": "Get-SPOSite",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 95,
-      "Rank": 2,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com"
+      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 96,
-      "Rank": 3,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com -DisableSharingForNonOwnersStatus"
+      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com -DisableSharingForNonOwnersStatus",
+      "Rank": 3
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 97,
-      "Rank": 4,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Template GROUP#0 -IncludePersonalSite:$false"
+      "Command": "Get-SPOSite -Template GROUP#0 -IncludePersonalSite:$false",
+      "Rank": 4
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 98,
-      "Rank": 5,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com/sites/groupname -detailed |fl"
+      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com/sites/groupname -detailed |fl",
+      "Rank": 5
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 99,
-      "Rank": 6,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com/sites/research | Select InformationSegment"
+      "Command": "Get-SPOSite -Identity https://contoso.sharepoint.com/sites/research | Select InformationSegment",
+      "Rank": 6
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 100,
-      "Rank": 7,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Filter { Url -like \"contoso.sharepoint.com/sites/18\" }"
+      "Command": "Get-SPOSite -Filter { Url -like \"contoso.sharepoint.com/sites/18\" }",
+      "Rank": 7
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 101,
-      "Rank": 8,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Limit ALL | ?{$_.IsTeamsConnected -eq $true}"
+      "Command": "Get-SPOSite -Limit ALL | ?{$_.IsTeamsConnected -eq $true}",
+      "Rank": 8
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 102,
-      "Rank": 9,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Limit ALL | ?{$_.IsTeamsChannelConnected -eq $true}"
+      "Command": "Get-SPOSite -Limit ALL | ?{$_.IsTeamsChannelConnected -eq $true}",
+      "Rank": 9
     },
     {
+      "CommandName": "Get-SPOSite",
       "Id": 103,
-      "Rank": 10,
-      "CommandName": "Get-SPOSite",
-      "Command": "Get-SPOSite -Limit ALL -GroupIdDefined $true"
+      "Command": "Get-SPOSite -Limit ALL -GroupIdDefined $true",
+      "Rank": 10
     },
     {
-      "Id": 104,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteCollectionAppCatalogs",
-      "Command": "Get-SPOSiteCollectionAppCatalogs -Site https://contoso.sharepoint.com/sites/Research"
+      "Id": 104,
+      "Command": "Get-SPOSiteCollectionAppCatalogs -Site https://contoso.sharepoint.com/sites/Research",
+      "Rank": 1
     },
     {
-      "Id": 105,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteContentMoveState",
-      "Command": "Get-SPOSiteContentMoveState -SourceSiteUrl $siteurl"
+      "Id": 105,
+      "Command": "Get-SPOSiteContentMoveState -SourceSiteUrl $siteurl",
+      "Rank": 1
     },
     {
-      "Id": 106,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteDataEncryptionPolicy",
-      "Command": "Get-SPOSiteDataEncryptionPolicy https://contoso.sharepoint.com/sites/Research"
+      "Id": 106,
+      "Command": "Get-SPOSiteDataEncryptionPolicy https://contoso.sharepoint.com/sites/Research",
+      "Rank": 1
     },
     {
-      "Id": 107,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteDesign",
-      "Command": "Get-SPOSiteDesign 44252d09-62c4-4913-9eb0-a2a8b8d7f863"
+      "Id": 107,
+      "Command": "Get-SPOSiteDesign 44252d09-62c4-4913-9eb0-a2a8b8d7f863",
+      "Rank": 1
     },
     {
-      "Id": 108,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteDesignRights",
-      "Command": "Get-SPOSiteDesignRights 607aed52-6d61-490a-b692-c0f58a6981a1"
+      "Id": 108,
+      "Command": "Get-SPOSiteDesignRights 607aed52-6d61-490a-b692-c0f58a6981a1",
+      "Rank": 1
     },
     {
-      "Id": 109,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteDesignTask",
-      "Command": "Get-SPOSiteDesignTask -Identity 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectawesome\""
+      "Id": 109,
+      "Command": "Get-SPOSiteDesignTask -Identity 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectawesome\"",
+      "Rank": 1
     },
     {
-      "Id": 110,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteFileVersionBatchDeleteJobProgress",
-      "Command": "Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity https://contoso.sharepoint.com/sites/site1"
+      "Id": 110,
+      "Command": "Get-SPOSiteFileVersionBatchDeleteJobProgress -Identity https://contoso.sharepoint.com/sites/site1",
+      "Rank": 1
     },
     {
-      "Id": 111,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteFileVersionExpirationReportJobProgress",
-      "Command": "Get-SPOSiteFileVersionExpirationReportJobProgress -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\""
+      "Id": 111,
+      "Command": "Get-SPOSiteFileVersionExpirationReportJobProgress -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\"",
+      "Rank": 1
     },
     {
-      "Id": 112,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteGroup",
-      "Command": "Get-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/siteA"
+      "Id": 112,
+      "Command": "Get-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/siteA",
+      "Rank": 1
     },
     {
-      "Id": 113,
-      "Rank": 1,
       "CommandName": "Get-SPOSitePages",
-      "Command": "Get-SPOSitePages -Site 'https://contoso.sharepoint.com/sites/testsite'"
+      "Id": 113,
+      "Command": "Get-SPOSitePages -Site 'https://contoso.sharepoint.com/sites/testsite'",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOSiteRenameState",
       "Id": 114,
-      "Rank": 1,
-      "CommandName": "Get-SPOSiteRenameState",
-      "Command": "Get-SPOSiteRenameState -Identity https://contoso.sharepoint.com/sites/ContosoWeb1"
+      "Command": "Get-SPOSiteRenameState -Identity https://contoso.sharepoint.com/sites/ContosoWeb1",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOSiteRenameState",
       "Id": 115,
-      "Rank": 2,
-      "CommandName": "Get-SPOSiteRenameState",
-      "Command": "Get-SPOSiteRenameState -State InProgress"
+      "Command": "Get-SPOSiteRenameState -State InProgress",
+      "Rank": 2
     },
     {
-      "Id": 116,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteUserInvitations",
-      "Command": "Get-SPOSiteUserInvitations -Site https://contoso.sharepoint.com/sites/ContosoWeb1/ -EmailAddress someone@example.com"
+      "Id": 116,
+      "Command": "Get-SPOSiteUserInvitations -Site https://contoso.sharepoint.com/sites/ContosoWeb1/ -EmailAddress someone@example.com",
+      "Rank": 1
     },
     {
-      "Id": 117,
-      "Rank": 1,
       "CommandName": "Get-SPOSiteVersionPolicyJobProgress",
-      "Command": "Get-SPOSiteVersionPolicyJobProgress -Identity https://contoso.sharepoint.com/sites/site1"
+      "Id": 117,
+      "Command": "Get-SPOSiteVersionPolicyJobProgress -Identity https://contoso.sharepoint.com/sites/site1",
+      "Rank": 1
     },
     {
-      "Id": 118,
-      "Rank": 1,
       "CommandName": "Get-SPOStorageEntity",
-      "Command": "Get-SPOStorageEntity -Site \"https://tenant-name.sharepoint.com/sites/app-catalog\" -Key \"MyCustomValues\""
+      "Id": 118,
+      "Command": "Get-SPOStorageEntity -Site \"https://tenant-name.sharepoint.com/sites/app-catalog\" -Key \"MyCustomValues\"",
+      "Rank": 1
     },
     {
-      "Id": 119,
-      "Rank": 1,
       "CommandName": "Get-SPOTenant",
-      "Command": "Get-SPOTenant"
+      "Id": 119,
+      "Command": "Get-SPOTenant",
+      "Rank": 1
     },
     {
-      "Id": 120,
-      "Rank": 1,
       "CommandName": "Get-SPOTenantCdnEnabled",
-      "Command": "Get-SPOTenantCdnEnabled -CdnType Public"
+      "Id": 120,
+      "Command": "Get-SPOTenantCdnEnabled -CdnType Public",
+      "Rank": 1
     },
     {
-      "Id": 121,
-      "Rank": 1,
       "CommandName": "Get-SPOTenantCdnOrigins",
-      "Command": "Get-SPOTenantCdnOrigins -CdnType Public"
+      "Id": 121,
+      "Command": "Get-SPOTenantCdnOrigins -CdnType Public",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantCdnPolicies",
       "Id": 122,
-      "Rank": 1,
-      "CommandName": "Get-SPOTenantCdnPolicies",
-      "Command": "Get-SPOTenantCdnPolicies -CdnType Public"
+      "Command": "Get-SPOTenantCdnPolicies -CdnType Public",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantCdnPolicies",
       "Id": 123,
-      "Rank": 2,
-      "CommandName": "Get-SPOTenantCdnPolicies",
-      "Command": "Get-SPOTenantCdnPolicies -CdnType Private"
+      "Command": "Get-SPOTenantCdnPolicies -CdnType Private",
+      "Rank": 2
     },
     {
-      "Id": 124,
-      "Rank": 1,
       "CommandName": "Get-SPOTenantContentTypeReplicationParameters",
-      "Command": "Get-SPOTenantContentTypeReplicationParameters"
+      "Id": 124,
+      "Command": "Get-SPOTenantContentTypeReplicationParameters",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantLogEntry",
       "Id": 125,
-      "Rank": 1,
-      "CommandName": "Get-SPOTenantLogEntry",
-      "Command": "Get-SPOTenantLogEntry"
+      "Command": "Get-SPOTenantLogEntry",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantLogEntry",
       "Id": 126,
-      "Rank": 2,
-      "CommandName": "Get-SPOTenantLogEntry",
-      "Command": "Get-SPOTenantLogEntry -MaxRows 500"
+      "Command": "Get-SPOTenantLogEntry -MaxRows 500",
+      "Rank": 2
     },
     {
-      "Id": 127,
-      "Rank": 1,
       "CommandName": "Get-SPOTenantLogLastAvailableTimeInUtc",
-      "Command": "Get-SPOTenantLogLastAvailableTimeInUtc"
+      "Id": 127,
+      "Command": "Get-SPOTenantLogLastAvailableTimeInUtc",
+      "Rank": 1
     },
     {
-      "Id": 128,
-      "Rank": 1,
       "CommandName": "Get-SPOTenantOrgRelation",
-      "Command": "Get-SPOTenantOrgRelation"
+      "Id": 128,
+      "Command": "Get-SPOTenantOrgRelation",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantRenameSitePrioritization",
       "Id": 129,
-      "Rank": 1,
-      "CommandName": "Get-SPOTenantRenameSitePrioritization",
-      "Command": "Get-SPOTenantRenameSitePrioritization"
+      "Command": "Get-SPOTenantRenameSitePrioritization",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantRenameSitePrioritization",
       "Id": 130,
-      "Rank": 2,
-      "CommandName": "Get-SPOTenantRenameSitePrioritization",
-      "Command": "Get-SPOTenantRenameSitePrioritization | Measure-Object"
+      "Command": "Get-SPOTenantRenameSitePrioritization | Measure-Object",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOTenantRenameSitePrioritization",
       "Id": 131,
-      "Rank": 3,
-      "CommandName": "Get-SPOTenantRenameSitePrioritization",
-      "Command": "Get-SPOTenantRenameSitePrioritization | Out-File -FilePath .\\sites.txt"
+      "Command": "Get-SPOTenantRenameSitePrioritization | Out-File -FilePath .\\sites.txt",
+      "Rank": 3
     },
     {
-      "Id": 132,
-      "Rank": 1,
       "CommandName": "Get-SPOTenantRenameStatus",
-      "Command": "Get-SPOTenantRenameStatus"
+      "Id": 132,
+      "Command": "Get-SPOTenantRenameStatus",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantServicePrincipalPermissionGrants",
       "Id": 133,
-      "Rank": 1,
-      "CommandName": "Get-SPOTenantServicePrincipalPermissionGrants",
-      "Command": "Get-SPOTenantServicePrincipalPermissionGrants"
+      "Command": "Get-SPOTenantServicePrincipalPermissionGrants",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantServicePrincipalPermissionGrants",
       "Id": 134,
-      "Rank": 2,
-      "CommandName": "Get-SPOTenantServicePrincipalPermissionGrants",
-      "Command": "Get-SPOTenantServicePrincipalPermissionGrants"
+      "Command": "Get-SPOTenantServicePrincipalPermissionGrants",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOTenantServicePrincipalPermissionRequests",
       "Id": 135,
-      "Rank": 1,
-      "CommandName": "Get-SPOTenantServicePrincipalPermissionRequests",
-      "Command": "Get-SPOTenantServicePrincipalPermissionRequests"
+      "Command": "Get-SPOTenantServicePrincipalPermissionRequests",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantServicePrincipalPermissionRequests",
       "Id": 136,
-      "Rank": 2,
-      "CommandName": "Get-SPOTenantServicePrincipalPermissionRequests",
-      "Command": "Get-SPOTenantServicePrincipalPermissionRequests"
+      "Command": "Get-SPOTenantServicePrincipalPermissionRequests",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOTenantSyncClientRestriction",
       "Id": 137,
-      "Rank": 1,
-      "CommandName": "Get-SPOTenantSyncClientRestriction",
-      "Command": "Get-SPOTenantSyncClientRestriction"
+      "Command": "Get-SPOTenantSyncClientRestriction",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTenantSyncClientRestriction",
       "Id": 138,
-      "Rank": 2,
-      "CommandName": "Get-SPOTenantSyncClientRestriction",
-      "Command": "Get-SPOTenantSyncClientRestriction"
+      "Command": "Get-SPOTenantSyncClientRestriction",
+      "Rank": 2
     },
     {
-      "Id": 139,
-      "Rank": 1,
       "CommandName": "Get-SPOTenantTaxonomyReplicationParameters",
-      "Command": "Get-SPOTenantTaxonomyReplicationParameters"
+      "Id": 139,
+      "Command": "Get-SPOTenantTaxonomyReplicationParameters",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTheme",
       "Id": 140,
-      "Rank": 1,
-      "CommandName": "Get-SPOTheme",
-      "Command": "Get-SPOTheme -Name \"Custom Cyan\" | ConvertTo-Json"
+      "Command": "Get-SPOTheme -Name \"Custom Cyan\" | ConvertTo-Json",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOTheme",
       "Id": 141,
-      "Rank": 2,
-      "CommandName": "Get-SPOTheme",
-      "Command": "Get-SPOTheme"
+      "Command": "Get-SPOTheme",
+      "Rank": 2
     },
     {
-      "Id": 142,
-      "Rank": 1,
       "CommandName": "Get-SPOUnifiedGroup",
-      "Command": "Get-SPOUnifiedGroup -GroupAlias EUTeam"
+      "Id": 142,
+      "Command": "Get-SPOUnifiedGroup -GroupAlias EUTeam",
+      "Rank": 1
     },
     {
-      "Id": 143,
-      "Rank": 1,
       "CommandName": "Get-SPOUnifiedGroupMoveState",
-      "Command": "Get-SPOUnifiedGroupMoveState -GroupAlias EUTeam"
+      "Id": 143,
+      "Command": "Get-SPOUnifiedGroupMoveState -GroupAlias EUTeam",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOUser",
       "Id": 144,
-      "Rank": 1,
-      "CommandName": "Get-SPOUser",
-      "Command": "Get-SPOUser -Site https://contoso.sharepoint.com/sites/finance"
+      "Command": "Get-SPOUser -Site https://contoso.sharepoint.com/sites/finance",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOUser",
       "Id": 145,
-      "Rank": 2,
-      "CommandName": "Get-SPOUser",
-      "Command": "Get-SPOUser -Site https://contoso.sharepoint.com/sites/finance -LoginName melissa.kerr@contoso.com"
+      "Command": "Get-SPOUser -Site https://contoso.sharepoint.com/sites/finance -LoginName melissa.kerr@contoso.com",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOUser",
       "Id": 146,
-      "Rank": 3,
-      "CommandName": "Get-SPOUser",
-      "Command": "Get-SPOUser -Site https://contoso.sharepoint.com/sites/finance -Group \"Team Site Members\""
+      "Command": "Get-SPOUser -Site https://contoso.sharepoint.com/sites/finance -Group \"Team Site Members\"",
+      "Rank": 3
     },
     {
+      "CommandName": "Get-SPOUserAndContentMoveState",
       "Id": 147,
-      "Rank": 1,
-      "CommandName": "Get-SPOUserAndContentMoveState",
-      "Command": "Get-SPOUserAndContentMoveState -OdbMoveId b298219e-3440-10b8-8931-46e805e2b85b"
+      "Command": "Get-SPOUserAndContentMoveState -OdbMoveId b298219e-3440-10b8-8931-46e805e2b85b",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOUserAndContentMoveState",
       "Id": 148,
-      "Rank": 2,
-      "CommandName": "Get-SPOUserAndContentMoveState",
-      "Command": "Get-SPOUserAndContentMoveState -MoveState NotStarted"
+      "Command": "Get-SPOUserAndContentMoveState -MoveState NotStarted",
+      "Rank": 2
     },
     {
+      "CommandName": "Get-SPOUserAndContentMoveState",
       "Id": 149,
-      "Rank": 3,
-      "CommandName": "Get-SPOUserAndContentMoveState",
-      "Command": "Get-SPOUserAndContentMoveState -MoveDirection All"
+      "Command": "Get-SPOUserAndContentMoveState -MoveDirection All",
+      "Rank": 3
     },
     {
+      "CommandName": "Get-SPOUserAndContentMoveState",
       "Id": 150,
-      "Rank": 4,
-      "CommandName": "Get-SPOUserAndContentMoveState",
-      "Command": "Get-SPOUserAndContentMoveState -MoveDirection In"
+      "Command": "Get-SPOUserAndContentMoveState -MoveDirection In",
+      "Rank": 4
     },
     {
+      "CommandName": "Get-SPOUserAndContentMoveState",
       "Id": 151,
-      "Rank": 5,
-      "CommandName": "Get-SPOUserAndContentMoveState",
-      "Command": "Get-SPOUserAndContentMoveState -MoveDirection Out"
+      "Command": "Get-SPOUserAndContentMoveState -MoveDirection Out",
+      "Rank": 5
     },
     {
+      "CommandName": "Get-SPOUserAndContentMoveState",
       "Id": 152,
-      "Rank": 6,
-      "CommandName": "Get-SPOUserAndContentMoveState",
-      "Command": "Get-SPOUserAndContentMoveState -UserPrincipalName jezz@contoso.com"
+      "Command": "Get-SPOUserAndContentMoveState -UserPrincipalName jezz@contoso.com",
+      "Rank": 6
     },
     {
-      "Id": 153,
-      "Rank": 1,
       "CommandName": "Get-SPOUserOneDriveLocation",
-      "Command": "Get-SPOUserOneDriveLocation -UserPrincipalName admin@contoso.com"
+      "Id": 153,
+      "Command": "Get-SPOUserOneDriveLocation -UserPrincipalName admin@contoso.com",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOWebTemplate",
       "Id": 154,
-      "Rank": 1,
-      "CommandName": "Get-SPOWebTemplate",
-      "Command": "Get-SPOWebTemplate"
+      "Command": "Get-SPOWebTemplate",
+      "Rank": 1
     },
     {
+      "CommandName": "Get-SPOWebTemplate",
       "Id": 155,
-      "Rank": 2,
-      "CommandName": "Get-SPOWebTemplate",
-      "Command": "Get-SPOWebTemplate -LocaleID 1036"
+      "Command": "Get-SPOWebTemplate -LocaleID 1036",
+      "Rank": 2
     },
     {
-      "Id": 156,
-      "Rank": 1,
       "CommandName": "Grant-SPOHubSiteRights",
-      "Command": "Grant-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing"
+      "Id": 156,
+      "Command": "Grant-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing",
+      "Rank": 1
     },
     {
-      "Id": 157,
-      "Rank": 1,
       "CommandName": "Grant-SPOSiteDesignRights",
-      "Command": "Grant-SPOSiteDesignRights `"
+      "Id": 157,
+      "Command": "Grant-SPOSiteDesignRights `",
+      "Rank": 1
     },
     {
-      "Id": 158,
-      "Rank": 1,
       "CommandName": "Invoke-SPOSiteDesign",
-      "Command": "Invoke-SPOSiteDesign -Identity 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectgo\""
+      "Id": 158,
+      "Command": "Invoke-SPOSiteDesign -Identity 501z8c32-4147-44d4-8607-26c2f67cae82 -WebUrl \"https://contoso.sharepoint.com/sites/projectgo\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Invoke-SPOSiteSwap",
       "Id": 159,
-      "Rank": 1,
-      "CommandName": "Invoke-SPOSiteSwap",
-      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/CommunicationSite -TargetUrl https://contoso.sharepoint.com -ArchiveUrl https://contoso.sharepoint.com/sites/Archive"
+      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/CommunicationSite -TargetUrl https://contoso.sharepoint.com -ArchiveUrl https://contoso.sharepoint.com/sites/Archive",
+      "Rank": 1
     },
     {
+      "CommandName": "Invoke-SPOSiteSwap",
       "Id": 160,
-      "Rank": 2,
-      "CommandName": "Invoke-SPOSiteSwap",
-      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/SearchSite -TargetUrl https://contoso.sharepoint.com/search -ArchiveUrl https://contoso.sharepoint.com/sites/Archive"
+      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/SearchSite -TargetUrl https://contoso.sharepoint.com/search -ArchiveUrl https://contoso.sharepoint.com/sites/Archive",
+      "Rank": 2
     },
     {
+      "CommandName": "Invoke-SPOSiteSwap",
       "Id": 161,
-      "Rank": 3,
-      "CommandName": "Invoke-SPOSiteSwap",
-      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/CommunicationSite -TargetUrl https://contoso.sharepoint.com -ArchiveUrl https://contoso.sharepoint.com/sites/Archive -DisableRedirection"
+      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/CommunicationSite -TargetUrl https://contoso.sharepoint.com -ArchiveUrl https://contoso.sharepoint.com/sites/Archive -DisableRedirection",
+      "Rank": 3
     },
     {
+      "CommandName": "Invoke-SPOSiteSwap",
       "Id": 162,
-      "Rank": 4,
-      "CommandName": "Invoke-SPOSiteSwap",
-      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/SearchSite -TargetUrl https://contoso.sharepoint.com/search -ArchiveUrl https://contoso.sharepoint.com/sites/Archive -Force"
+      "Command": "Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/SearchSite -TargetUrl https://contoso.sharepoint.com/search -ArchiveUrl https://contoso.sharepoint.com/sites/Archive -Force",
+      "Rank": 4
     },
     {
+      "CommandName": "New-SPOAppBillingPolicy",
       "Id": 163,
-      "Rank": 1,
-      "CommandName": "New-SPOAppBillingPolicy",
-      "Command": "New-SPOAppBillingPolicy -ApplicationId 50785fde-3082-47ac-a36d-06282ac5c7da -AzureSubscriptionId c7170373-eb8d-4984-8cc9-59bcc88c65a0 -ResouceGroup \"SPOPAYG\" -AzureRegion \"Uk-South\" -UsageCharges AppOwnerIsCharged"
+      "Command": "New-SPOAppBillingPolicy -ApplicationId 50785fde-3082-47ac-a36d-06282ac5c7da -AzureSubscriptionId c7170373-eb8d-4984-8cc9-59bcc88c65a0 -ResouceGroup \"SPOPAYG\" -AzureRegion \"Uk-South\" -UsageCharges AppOwnerIsCharged",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOAppBillingPolicy",
       "Id": 164,
-      "Rank": 2,
-      "CommandName": "New-SPOAppBillingPolicy",
-      "Command": "New-SPOAppBillingPolicy -ApplicationId 50785fde-3082-47ac-a36d-06282ac5c7da -AzureSubscriptionId c7170373-eb8d-4984-8cc9-59bcc88c65a0 -ResouceGroup \"SPOPAYG\" -AzureRegion \"Uk-South\" -UsageCharges ConsumingTenantOfTheAppisCharged"
+      "Command": "New-SPOAppBillingPolicy -ApplicationId 50785fde-3082-47ac-a36d-06282ac5c7da -AzureSubscriptionId c7170373-eb8d-4984-8cc9-59bcc88c65a0 -ResouceGroup \"SPOPAYG\" -AzureRegion \"Uk-South\" -UsageCharges ConsumingTenantOfTheAppisCharged",
+      "Rank": 2
     },
     {
-      "Id": 165,
-      "Rank": 1,
       "CommandName": "New-SPODataConnectionSetting",
-      "Command": "New-SPODataConnectionSetting -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -ServiceAddressURL \"https://expensereporting.cloudapp.net/expensereporting.svc\" -AuthenticationMode \"Credentials\" -SecureStoreTargetApplicationId \"DallasUserName\""
+      "Id": 165,
+      "Command": "New-SPODataConnectionSetting -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -ServiceAddressURL \"https://expensereporting.cloudapp.net/expensereporting.svc\" -AuthenticationMode \"Credentials\" -SecureStoreTargetApplicationId \"DallasUserName\"",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOListFileVersionBatchDeleteJob",
       "Id": 166,
-      "Rank": 1,
-      "CommandName": "New-SPOListFileVersionBatchDeleteJob",
-      "Command": "New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -DeleteBeforeDays 360"
+      "Command": "New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -DeleteBeforeDays 360",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOListFileVersionBatchDeleteJob",
       "Id": 167,
-      "Rank": 2,
-      "CommandName": "New-SPOListFileVersionBatchDeleteJob",
-      "Command": "New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -Automatic"
+      "Command": "New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -Automatic",
+      "Rank": 2
     },
     {
+      "CommandName": "New-SPOListFileVersionBatchDeleteJob",
       "Id": 168,
-      "Rank": 3,
-      "CommandName": "New-SPOListFileVersionBatchDeleteJob",
-      "Command": "New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -MajorVersionLimit 30 -MajorWithMinorVersionsLimit 10"
+      "Command": "New-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -MajorVersionLimit 30 -MajorWithMinorVersionsLimit 10",
+      "Rank": 3
     },
     {
-      "Id": 169,
-      "Rank": 1,
       "CommandName": "New-SPOListFileVersionExpirationReportJob",
-      "Command": "New-SPOListFileVersionExpirationReportJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\""
+      "Id": 169,
+      "Command": "New-SPOListFileVersionExpirationReportJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\"",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOMigrationPackage",
       "Id": 170,
-      "Rank": 1,
-      "CommandName": "New-SPOMigrationPackage",
-      "Command": "New-SPOMigrationPackage -SourceFilesPath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_SrcPkg"
+      "Command": "New-SPOMigrationPackage -SourceFilesPath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_SrcPkg",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOMigrationPackage",
       "Id": 171,
-      "Rank": 2,
-      "CommandName": "New-SPOMigrationPackage",
-      "Command": "New-SPOMigrationPackage -SourceFilesPath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_SrcPkg -TargetWebUrl https://contoso.sharepoint.com/sites/TargetSite/TargetWeb -TargetDocumentLibraryPath \"Shared Documents\""
+      "Command": "New-SPOMigrationPackage -SourceFilesPath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_SrcPkg -TargetWebUrl https://contoso.sharepoint.com/sites/TargetSite/TargetWeb -TargetDocumentLibraryPath \"Shared Documents\"",
+      "Rank": 2
     },
     {
-      "Id": 172,
-      "Rank": 1,
       "CommandName": "New-SPOPublicCdnOrigin",
-      "Command": "New-SPOPublicCdnOrigin -URL https://contoso.sharepoint.com/sites/CDN/CDNFilesLibrary/"
+      "Id": 172,
+      "Command": "New-SPOPublicCdnOrigin -URL https://contoso.sharepoint.com/sites/CDN/CDNFilesLibrary/",
+      "Rank": 1
     },
     {
-      "Id": 173,
-      "Rank": 1,
       "CommandName": "New-SPOSdnProvider",
-      "Command": "New-SPOSdnProvider -ID \"Hive\" -License \"<Hive license key>\""
+      "Id": 173,
+      "Command": "New-SPOSdnProvider -ID \"Hive\" -License \"<Hive license key>\"",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOSite",
       "Id": 174,
-      "Rank": 1,
-      "CommandName": "New-SPOSite",
-      "Command": "New-SPOSite -Url https://contoso.sharepoint.com/sites/mynewsite -Owner joe.healy@contoso.com -StorageQuota 1000 -Title \"My new site collection\""
+      "Command": "New-SPOSite -Url https://contoso.sharepoint.com/sites/mynewsite -Owner joe.healy@contoso.com -StorageQuota 1000 -Title \"My new site collection\"",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOSite",
       "Id": 175,
-      "Rank": 2,
-      "CommandName": "New-SPOSite",
-      "Command": "New-SPOSite -Url https://contoso.sharepoint.com/sites/mynewsite -Owner joe.healy@contoso.com -StorageQuota 1000 -CompatibilityLevel 15 -LocaleID 1033 -ResourceQuota 300 -Template \"STS#0\" -TimeZoneId 13 -Title \"My new site collection\""
+      "Command": "New-SPOSite -Url https://contoso.sharepoint.com/sites/mynewsite -Owner joe.healy@contoso.com -StorageQuota 1000 -CompatibilityLevel 15 -LocaleID 1033 -ResourceQuota 300 -Template \"STS#0\" -TimeZoneId 13 -Title \"My new site collection\"",
+      "Rank": 2
     },
     {
+      "CommandName": "New-SPOSite",
       "Id": 176,
-      "Rank": 3,
-      "CommandName": "New-SPOSite",
-      "Command": "New-SPOSite -Url https://contoso.sharepoint.com/sites/accounting -Owner admin@contoso.com -StorageQuota 100 -NoWait -ResourceQuota 50 -Template STS#0"
+      "Command": "New-SPOSite -Url https://contoso.sharepoint.com/sites/accounting -Owner admin@contoso.com -StorageQuota 100 -NoWait -ResourceQuota 50 -Template STS#0",
+      "Rank": 3
     },
     {
+      "CommandName": "New-SPOSiteFileVersionBatchDeleteJob",
       "Id": 177,
-      "Rank": 1,
-      "CommandName": "New-SPOSiteFileVersionBatchDeleteJob",
-      "Command": "New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -DeleteBeforeDays 360"
+      "Command": "New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -DeleteBeforeDays 360",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOSiteFileVersionBatchDeleteJob",
       "Id": 178,
-      "Rank": 2,
-      "CommandName": "New-SPOSiteFileVersionBatchDeleteJob",
-      "Command": "New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -Automatic"
+      "Command": "New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -Automatic",
+      "Rank": 2
     },
     {
+      "CommandName": "New-SPOSiteFileVersionBatchDeleteJob",
       "Id": 179,
-      "Rank": 3,
-      "CommandName": "New-SPOSiteFileVersionBatchDeleteJob",
-      "Command": "New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -MajorVersionLimit 30 -MajorWithMinorVersionsLimit 10"
+      "Command": "New-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1 -MajorVersionLimit 30 -MajorWithMinorVersionsLimit 10",
+      "Rank": 3
     },
     {
-      "Id": 180,
-      "Rank": 1,
       "CommandName": "New-SPOSiteFileVersionExpirationReportJob",
-      "Command": "New-SPOSiteFileVersionExpirationReportJob -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\""
+      "Id": 180,
+      "Command": "New-SPOSiteFileVersionExpirationReportJob -Identity https://contoso.sharepoint.com/sites/site1 -ReportUrl \"https://contoso.sharepoint.com/sites/sites1/reports/MyReports/VersionReport.csv\"",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOSiteGroup",
       "Id": 181,
-      "Rank": 1,
-      "CommandName": "New-SPOSiteGroup",
-      "Command": "New-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/siteA -Group \"Project Leads\" -PermissionLevels \"Full Control\""
+      "Command": "New-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/siteA -Group \"Project Leads\" -PermissionLevels \"Full Control\"",
+      "Rank": 1
     },
     {
+      "CommandName": "New-SPOSiteGroup",
       "Id": 182,
-      "Rank": 2,
-      "CommandName": "New-SPOSiteGroup",
-      "Command": "New-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/marketing -Group \"NewGroupName\" -PermissionLevels \"Design\""
+      "Command": "New-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/marketing -Group \"NewGroupName\" -PermissionLevels \"Design\"",
+      "Rank": 2
     },
     {
-      "Id": 183,
-      "Rank": 1,
       "CommandName": "New-SPOnlineApplicationPrincipalManagementServiceApplicationProxy",
-      "Command": "New-SPOnlineApplicationPrincipalManagementServiceApplicationProxy -Name $SPO_MANAGEMENT_APPPROXY_NAME -OnlineTenantUri $PortalUrl -DefaultProxyGroup"
+      "Id": 183,
+      "Command": "New-SPOnlineApplicationPrincipalManagementServiceApplicationProxy -Name $SPO_MANAGEMENT_APPPROXY_NAME -OnlineTenantUri $PortalUrl -DefaultProxyGroup",
+      "Rank": 1
     },
     {
-      "Id": 184,
-      "Rank": 1,
       "CommandName": "Register-SPODataEncryptionPolicy",
-      "Command": "Register-SPODataEncryptionPolicy -PrimaryKeyVaultName 'PKVaultName1' -PrimaryKeyName 'PrimaryKey1' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'SKVaultName1' -SecondaryKeyName 'SecondaryKey2' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a'"
+      "Id": 184,
+      "Command": "Register-SPODataEncryptionPolicy -PrimaryKeyVaultName 'PKVaultName1' -PrimaryKeyName 'PrimaryKey1' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'SKVaultName1' -SecondaryKeyName 'SecondaryKey2' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a'",
+      "Rank": 1
     },
     {
-      "Id": 185,
-      "Rank": 1,
       "CommandName": "Register-SPOHubSite",
-      "Command": "Register-SPOHubSite https://contoso.sharepoint.com/sites/Marketing -Principals $null"
+      "Id": 185,
+      "Command": "Register-SPOHubSite https://contoso.sharepoint.com/sites/Marketing -Principals $null",
+      "Rank": 1
     },
     {
-      "Id": 186,
-      "Rank": 1,
       "CommandName": "Remove-SPOAppBillingPolicy",
-      "Command": "Remove-SPOAppBillingPolicy -ApplicationId 1653hhd-87100luhw-786265gk-00asa00"
+      "Id": 186,
+      "Command": "Remove-SPOAppBillingPolicy -ApplicationId 1653hhd-87100luhw-786265gk-00asa00",
+      "Rank": 1
     },
     {
-      "Id": 187,
-      "Rank": 1,
       "CommandName": "Remove-SPOContainer",
-      "Command": "Remove-SPOContainer -Identity 423poi45-jikl-9bnm-b302-1234ghy56789"
+      "Id": 187,
+      "Command": "Remove-SPOContainer -Identity 423poi45-jikl-9bnm-b302-1234ghy56789",
+      "Rank": 1
     },
     {
-      "Id": 188,
-      "Rank": 1,
       "CommandName": "Remove-SPOContentEventEmailAddresses",
-      "Command": "Remove-SPOContentEventEmailAddresses -Category Ransomware -EmailAddresses \"Joe.Doe@contoso.com\", \"John.Dow@contoso.com\""
+      "Id": 188,
+      "Command": "Remove-SPOContentEventEmailAddresses -Category Ransomware -EmailAddresses \"Joe.Doe@contoso.com\", \"John.Dow@contoso.com\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Remove-SPODataConnectionSetting",
       "Id": 189,
-      "Rank": 1,
-      "CommandName": "Remove-SPODataConnectionSetting",
-      "Command": "Remove-SPODataConnectionSetting -ServiceContext \"http://contoso\" -Name \"ContosoServiceApp\""
+      "Command": "Remove-SPODataConnectionSetting -ServiceContext \"http://contoso\" -Name \"ContosoServiceApp\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Remove-SPODataConnectionSetting",
       "Id": 190,
-      "Rank": 2,
-      "CommandName": "Remove-SPODataConnectionSetting",
-      "Command": "Remove-SPODataConnectionSetting -ServiceContext \"http://contoso\" -Name \"ContosoServiceApp-metadata\""
+      "Command": "Remove-SPODataConnectionSetting -ServiceContext \"http://contoso\" -Name \"ContosoServiceApp-metadata\"",
+      "Rank": 2
     },
     {
-      "Id": 191,
-      "Rank": 1,
       "CommandName": "Remove-SPODeletedContainer",
-      "Command": "Remove-SPODeletedContainer -Identity b66f5b2e-4cbd-4754-9ad3-8291c2c81ade"
+      "Id": 191,
+      "Command": "Remove-SPODeletedContainer -Identity b66f5b2e-4cbd-4754-9ad3-8291c2c81ade",
+      "Rank": 1
     },
     {
-      "Id": 192,
-      "Rank": 1,
       "CommandName": "Remove-SPODeletedSite",
-      "Command": "Remove-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/sitetoremove"
+      "Id": 192,
+      "Command": "Remove-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/sitetoremove",
+      "Rank": 1
     },
     {
+      "CommandName": "Remove-SPOGeoAdministrator",
       "Id": 193,
-      "Rank": 1,
-      "CommandName": "Remove-SPOGeoAdministrator",
-      "Command": "Remove-SPOGeoAdministrator contosoadmin"
+      "Command": "Remove-SPOGeoAdministrator contosoadmin",
+      "Rank": 1
     },
     {
+      "CommandName": "Remove-SPOGeoAdministrator",
       "Id": 194,
-      "Rank": 2,
-      "CommandName": "Remove-SPOGeoAdministrator",
-      "Command": "Remove-SPOGeoAdministrator -LoginName contosoadmin"
+      "Command": "Remove-SPOGeoAdministrator -LoginName contosoadmin",
+      "Rank": 2
     },
     {
-      "Id": 195,
-      "Rank": 1,
       "CommandName": "Remove-SPOHomeSite",
-      "Command": "Remove-SPOHomeSite"
+      "Id": 195,
+      "Command": "Remove-SPOHomeSite",
+      "Rank": 1
     },
     {
-      "Id": 196,
-      "Rank": 1,
       "CommandName": "Remove-SPOHubSiteAssociation",
-      "Command": "Remove-SPOHubSiteAssociation https://contoso.sharepoint.com/sites/Research"
+      "Id": 196,
+      "Command": "Remove-SPOHubSiteAssociation https://contoso.sharepoint.com/sites/Research",
+      "Rank": 1
     },
     {
-      "Id": 197,
-      "Rank": 1,
       "CommandName": "Remove-SPOHubToHubAssociation",
-      "Command": "Remove-SPOHubToHubAssociation -HubSiteId 6638bd4c-d88d-447c-9eb2-c84f28ba8b15"
+      "Id": 197,
+      "Command": "Remove-SPOHubToHubAssociation -HubSiteId 6638bd4c-d88d-447c-9eb2-c84f28ba8b15",
+      "Rank": 1
     },
     {
-      "Id": 198,
-      "Rank": 1,
       "CommandName": "Remove-SPOListFileVersionBatchDeleteJob",
-      "Command": "Remove-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\""
+      "Id": 198,
+      "Command": "Remove-SPOListFileVersionBatchDeleteJob -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\"",
+      "Rank": 1
     },
     {
-      "Id": 199,
-      "Rank": 1,
       "CommandName": "Remove-SPOMigrationJob",
-      "Command": "Remove-SPOMigrationJob -JobId 4da9e777-3e38-4804-96d9-ddeebe7dfa79 -TargetUrl https://contoso.sharepoint.com/sites/TargetSite"
+      "Id": 199,
+      "Command": "Remove-SPOMigrationJob -JobId 4da9e777-3e38-4804-96d9-ddeebe7dfa79 -TargetUrl https://contoso.sharepoint.com/sites/TargetSite",
+      "Rank": 1
     },
     {
-      "Id": 200,
-      "Rank": 1,
       "CommandName": "Remove-SPOMultiGeoCompanyAllowedDataLocation",
-      "Command": "Remove-SPOMultiGeoCompanyAllowedDataLocation -Location AUS"
+      "Id": 200,
+      "Command": "Remove-SPOMultiGeoCompanyAllowedDataLocation -Location AUS",
+      "Rank": 1
     },
     {
-      "Id": 201,
-      "Rank": 1,
       "CommandName": "Remove-SPOOrgAssetsLibrary",
-      "Command": "Remove-SPOOrgAssetsLibrary -ListId 58454454-6546-6466-9769-646464623988"
+      "Id": 201,
+      "Command": "Remove-SPOOrgAssetsLibrary -ListId 58454454-6546-6466-9769-646464623988",
+      "Rank": 1
     },
     {
-      "Id": 202,
-      "Rank": 1,
       "CommandName": "Remove-SPOOrgNewsSite",
-      "Command": "Remove-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing"
+      "Id": 202,
+      "Command": "Remove-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing",
+      "Rank": 1
     },
     {
-      "Id": 203,
-      "Rank": 1,
       "CommandName": "Remove-SPOSite",
-      "Command": "Remove-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -NoWait"
+      "Id": 203,
+      "Command": "Remove-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -NoWait",
+      "Rank": 1
     },
     {
-      "Id": 204,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteCollectionAppCatalog",
-      "Command": "Remove-SPOSiteCollectionAppCatalog -Site https://contoso.sharepoint.com/sites/Research"
+      "Id": 204,
+      "Command": "Remove-SPOSiteCollectionAppCatalog -Site https://contoso.sharepoint.com/sites/Research",
+      "Rank": 1
     },
     {
-      "Id": 205,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteCollectionAppCatalogById",
-      "Command": "Remove-SPOSiteCollectionAppCatalogById -SiteId bdbd7458-8199-4e99-87ca-15fe9dc17a86"
+      "Id": 205,
+      "Command": "Remove-SPOSiteCollectionAppCatalogById -SiteId bdbd7458-8199-4e99-87ca-15fe9dc17a86",
+      "Rank": 1
     },
     {
-      "Id": 206,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteDesign",
-      "Command": "Remove-SPOSiteDesign 21209d88-38de-4844-9823-f1f600a1179a"
+      "Id": 206,
+      "Command": "Remove-SPOSiteDesign 21209d88-38de-4844-9823-f1f600a1179a",
+      "Rank": 1
     },
     {
-      "Id": 207,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteDesignTask",
-      "Command": "Remove-SPOSiteDesignTask -Identity 501z8c32-4147-44d4-8607-26c2f67cae82"
+      "Id": 207,
+      "Command": "Remove-SPOSiteDesignTask -Identity 501z8c32-4147-44d4-8607-26c2f67cae82",
+      "Rank": 1
     },
     {
-      "Id": 208,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteFileVersionBatchDeleteJob",
-      "Command": "Remove-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1"
+      "Id": 208,
+      "Command": "Remove-SPOSiteFileVersionBatchDeleteJob -Identity https://contoso.sharepoint.com/sites/site1",
+      "Rank": 1
     },
     {
-      "Id": 209,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteGroup",
-      "Command": "Remove-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/marketing -Identity GroupToRemove"
+      "Id": 209,
+      "Command": "Remove-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/marketing -Identity GroupToRemove",
+      "Rank": 1
     },
     {
-      "Id": 210,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteScript",
-      "Command": "Remove-SPOSiteScript 5ea28194-6fe7-4e2c-ba84-c409368278e2"
+      "Id": 210,
+      "Command": "Remove-SPOSiteScript 5ea28194-6fe7-4e2c-ba84-c409368278e2",
+      "Rank": 1
     },
     {
-      "Id": 211,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteUserInvitations",
-      "Command": "Remove-SPOSiteUserInvitations -Site https://contoso.sharepoint.com/sites/Research -EmailAddress \"someone@contoso.com\""
+      "Id": 211,
+      "Command": "Remove-SPOSiteUserInvitations -Site https://contoso.sharepoint.com/sites/Research -EmailAddress \"someone@contoso.com\"",
+      "Rank": 1
     },
     {
-      "Id": 212,
-      "Rank": 1,
       "CommandName": "Remove-SPOSiteVersionPolicyJob",
-      "Command": "Remove-SPOSiteVersionPolicyJob -Identity https://contoso.sharepoint.com/sites/site1"
+      "Id": 212,
+      "Command": "Remove-SPOSiteVersionPolicyJob -Identity https://contoso.sharepoint.com/sites/site1",
+      "Rank": 1
     },
     {
-      "Id": 213,
-      "Rank": 1,
       "CommandName": "Remove-SPOStorageEntity",
-      "Command": "Remove-SPOStorageEntity \"https://tenant-name.sharepoint.com/sites/app-catalog\" -Key \"MyCustomValue\""
+      "Id": 213,
+      "Command": "Remove-SPOStorageEntity \"https://tenant-name.sharepoint.com/sites/app-catalog\" -Key \"MyCustomValue\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Remove-SPOTenantCdnOrigin",
       "Id": 214,
-      "Rank": 1,
-      "CommandName": "Remove-SPOTenantCdnOrigin",
-      "Command": "Remove-SPOTenantCdnOrigin -CdnType Public -OriginUrl sites/pubsite/siteassets/subfolder"
+      "Command": "Remove-SPOTenantCdnOrigin -CdnType Public -OriginUrl sites/pubsite/siteassets/subfolder",
+      "Rank": 1
     },
     {
+      "CommandName": "Remove-SPOTenantCdnOrigin",
       "Id": 215,
-      "Rank": 2,
-      "CommandName": "Remove-SPOTenantCdnOrigin",
-      "Command": "Remove-SPOTenantCdnOrigin -CdnType Public -OriginScope Site -Site https://contoso.sharepoint.com/sites/pubsite -OriginUrl siteassets/subfolder"
+      "Command": "Remove-SPOTenantCdnOrigin -CdnType Public -OriginScope Site -Site https://contoso.sharepoint.com/sites/pubsite -OriginUrl siteassets/subfolder",
+      "Rank": 2
     },
     {
+      "CommandName": "Remove-SPOTenantCdnOrigin",
       "Id": 216,
-      "Rank": 3,
-      "CommandName": "Remove-SPOTenantCdnOrigin",
-      "Command": "Remove-SPOTenantCdnOrigin -CdnType Private -OriginUrl /sites/branding/Assets"
+      "Command": "Remove-SPOTenantCdnOrigin -CdnType Private -OriginUrl /sites/branding/Assets",
+      "Rank": 3
     },
     {
-      "Id": 217,
-      "Rank": 1,
       "CommandName": "Remove-SPOTenantRenameSitePrioritization",
-      "Command": "Remove-SPOTenantRenameSitePrioritization -SiteUrl https://contoso.sharepoint.com/sites/projectx"
+      "Id": 217,
+      "Command": "Remove-SPOTenantRenameSitePrioritization -SiteUrl https://contoso.sharepoint.com/sites/projectx",
+      "Rank": 1
     },
     {
-      "Id": 218,
-      "Rank": 1,
       "CommandName": "Remove-SPOTenantSyncClientRestriction",
-      "Command": "Remove-SPOTenantSyncClientRestriction"
+      "Id": 218,
+      "Command": "Remove-SPOTenantSyncClientRestriction",
+      "Rank": 1
     },
     {
-      "Id": 219,
-      "Rank": 1,
       "CommandName": "Remove-SPOTheme",
-      "Command": "Remove-SPOTheme -Identity \"Custom Cyan\""
+      "Id": 219,
+      "Command": "Remove-SPOTheme -Identity \"Custom Cyan\"",
+      "Rank": 1
     },
     {
-      "Id": 220,
-      "Rank": 1,
       "CommandName": "Remove-SPOUser",
-      "Command": "Remove-SPOUser -Site https://contoso.sharepoint.com/sites/sc1 -LoginName joe.healy@contoso.com -Group \"SC1 Owners\""
+      "Id": 220,
+      "Command": "Remove-SPOUser -Site https://contoso.sharepoint.com/sites/sc1 -LoginName joe.healy@contoso.com -Group \"SC1 Owners\"",
+      "Rank": 1
     },
     {
-      "Id": 221,
-      "Rank": 1,
       "CommandName": "Remove-SPOUserProfile",
-      "Command": "Remove-SPOUserProfile -LoginName joe.healy@contoso.com"
+      "Id": 221,
+      "Command": "Remove-SPOUserProfile -LoginName joe.healy@contoso.com",
+      "Rank": 1
     },
     {
+      "CommandName": "Repair-SPOSite",
       "Id": 222,
-      "Rank": 1,
-      "CommandName": "Repair-SPOSite",
-      "Command": "Repair-SPOSite https://contoso.sharepoint.com/sites/marketing"
+      "Command": "Repair-SPOSite https://contoso.sharepoint.com/sites/marketing",
+      "Rank": 1
     },
     {
+      "CommandName": "Repair-SPOSite",
       "Id": 223,
-      "Rank": 2,
-      "CommandName": "Repair-SPOSite",
-      "Command": "Repair-SPOSite https://contoso.sharepoint.com/sites/marketing -RuleID \"ee967197-ccbe-4c00-88e4-e6fab81145e1\""
+      "Command": "Repair-SPOSite https://contoso.sharepoint.com/sites/marketing -RuleID \"ee967197-ccbe-4c00-88e4-e6fab81145e1\"",
+      "Rank": 2
     },
     {
-      "Id": 224,
-      "Rank": 1,
       "CommandName": "Request-SPOPersonalSite",
-      "Command": "Request-SPOPersonalSite -UserEmails $emails"
+      "Id": 224,
+      "Command": "Request-SPOPersonalSite -UserEmails $emails",
+      "Rank": 1
     },
     {
+      "CommandName": "Request-SPOUpgradeEvaluationSite",
       "Id": 225,
-      "Rank": 1,
-      "CommandName": "Request-SPOUpgradeEvaluationSite",
-      "Command": "Request-SPOUpgradeEvaluationSite https://contoso.sharepoint.com/sites/marketing"
+      "Command": "Request-SPOUpgradeEvaluationSite https://contoso.sharepoint.com/sites/marketing",
+      "Rank": 1
     },
     {
+      "CommandName": "Request-SPOUpgradeEvaluationSite",
       "Id": 226,
-      "Rank": 2,
-      "CommandName": "Request-SPOUpgradeEvaluationSite",
-      "Command": "Request-SPOUpgradeEvaluationSite https://contoso.sharepoint.com/sites/marketing -NoEmail $true -NoUpgrade $true"
+      "Command": "Request-SPOUpgradeEvaluationSite https://contoso.sharepoint.com/sites/marketing -NoEmail $true -NoUpgrade $true",
+      "Rank": 2
     },
     {
-      "Id": 227,
-      "Rank": 1,
       "CommandName": "Restore-SPODataEncryptionPolicy",
-      "Command": "Restore-SPODataEncryptionPolicy -PrimaryKeyVaultName 'PKVaultName1' -PrimaryKeyName 'PrimaryKey1' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'SKVaultName1' -SecondaryKeyName 'SecondaryKey2' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a'"
+      "Id": 227,
+      "Command": "Restore-SPODataEncryptionPolicy -PrimaryKeyVaultName 'PKVaultName1' -PrimaryKeyName 'PrimaryKey1' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'SKVaultName1' -SecondaryKeyName 'SecondaryKey2' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a'",
+      "Rank": 1
     },
     {
-      "Id": 228,
-      "Rank": 1,
       "CommandName": "Restore-SPODeletedContainer",
-      "Command": "Restore-SPODeletedContainer -Identity b66f5b2e-4cbd-4754-9ad3-8291c2c81ade"
+      "Id": 228,
+      "Command": "Restore-SPODeletedContainer -Identity b66f5b2e-4cbd-4754-9ad3-8291c2c81ade",
+      "Rank": 1
     },
     {
-      "Id": 229,
-      "Rank": 1,
       "CommandName": "Restore-SPODeletedSite",
-      "Command": "Restore-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/arecycledsite"
+      "Id": 229,
+      "Command": "Restore-SPODeletedSite -Identity https://contoso.sharepoint.com/sites/arecycledsite",
+      "Rank": 1
     },
     {
-      "Id": 230,
-      "Rank": 1,
       "CommandName": "Revoke-SPOHubSiteRights",
-      "Command": "Revoke-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing `"
+      "Id": 230,
+      "Command": "Revoke-SPOHubSiteRights https://contoso.sharepoint.com/sites/Marketing `",
+      "Rank": 1
     },
     {
-      "Id": 231,
-      "Rank": 1,
       "CommandName": "Revoke-SPOSiteDesignRights",
-      "Command": "Revoke-SPOSiteDesignRights 44252d09-62c4-4913-9eb0-a2a8b8d7f863 `"
+      "Id": 231,
+      "Command": "Revoke-SPOSiteDesignRights 44252d09-62c4-4913-9eb0-a2a8b8d7f863 `",
+      "Rank": 1
     },
     {
+      "CommandName": "Revoke-SPOUserSession",
       "Id": 232,
-      "Rank": 1,
-      "CommandName": "Revoke-SPOUserSession",
-      "Command": "Revoke-SPOUserSession -User user1@contoso.com"
+      "Command": "Revoke-SPOUserSession -User user1@contoso.com",
+      "Rank": 1
     },
     {
+      "CommandName": "Revoke-SPOUserSession",
       "Id": 233,
-      "Rank": 2,
-      "CommandName": "Revoke-SPOUserSession",
-      "Command": "Revoke-SPOUserSession -User user1@contoso.com -Confirm:$false"
+      "Command": "Revoke-SPOUserSession -User user1@contoso.com -Confirm:$false",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOApplication",
       "Id": 234,
-      "Rank": 1,
-      "CommandName": "Set-SPOApplication",
-      "Command": "Set-SPOApplication -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -OverrideTenantSharingCapability $false"
+      "Command": "Set-SPOApplication -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -OverrideTenantSharingCapability $false",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOApplication",
       "Id": 235,
-      "Rank": 2,
-      "CommandName": "Set-SPOApplication",
-      "Command": "Set-SPOApplication -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -OverrideTenantSharingCapability $true -SharingCapability -Disabled"
+      "Command": "Set-SPOApplication -OwningApplicationId 423poi45-jikl-9bnm-b302-1234ghy56789 -OverrideTenantSharingCapability $true -SharingCapability -Disabled",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOApplicationPermission",
       "Id": 236,
-      "Rank": 1,
-      "CommandName": "Set-SPOApplicationPermission",
-      "Command": "Set-SPOApplicationPermission -OwningApplicationId a187e399-0c36-4b98-8f04-1edc167a0996 -ApplicationId 12345678-1234-1234-abcd-abcdefghijkl -PermissionAppOnly Read, Write"
+      "Command": "Set-SPOApplicationPermission -OwningApplicationId a187e399-0c36-4b98-8f04-1edc167a0996 -ApplicationId 12345678-1234-1234-abcd-abcdefghijkl -PermissionAppOnly Read, Write",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOApplicationPermission",
       "Id": 237,
-      "Rank": 2,
-      "CommandName": "Set-SPOApplicationPermission",
-      "Command": "Set-SPOApplicationPermission -OwningApplicationId 5e2795e3-ce8c-4cfb-b302-35fe5cd01597 -ApplicationId 12345678-1234-1234-abcd-abcdefghijkl -PermissionAppOnly ReadContent, WriteContent -PermissionDelegated None"
+      "Command": "Set-SPOApplicationPermission -OwningApplicationId 5e2795e3-ce8c-4cfb-b302-35fe5cd01597 -ApplicationId 12345678-1234-1234-abcd-abcdefghijkl -PermissionAppOnly ReadContent, WriteContent -PermissionDelegated None",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOApplicationPermission",
       "Id": 238,
-      "Rank": 3,
-      "CommandName": "Set-SPOApplicationPermission",
-      "Command": "Set-SPOApplicationPermission -OwningApplicationId 5e2795e3-ce8c-4cfb-b302-35fe5cd01597 -ApplicationId 12345678-1234-1234-abcd-abcdefghijkl -PermissionAppOnly None -PermissionDelegated None"
+      "Command": "Set-SPOApplicationPermission -OwningApplicationId 5e2795e3-ce8c-4cfb-b302-35fe5cd01597 -ApplicationId 12345678-1234-1234-abcd-abcdefghijkl -PermissionAppOnly None -PermissionDelegated None",
+      "Rank": 3
     },
     {
+      "CommandName": "Set-SPOBrowserIdleSignOut",
       "Id": 239,
-      "Rank": 1,
-      "CommandName": "Set-SPOBrowserIdleSignOut",
-      "Command": "Set-SPOBrowserIdleSignOut -Enabled:$true -WarnAfter \"0.00:45:00\" -SignOutAfter \"0.01:00:00\""
+      "Command": "Set-SPOBrowserIdleSignOut -Enabled:$true -WarnAfter \"0.00:45:00\" -SignOutAfter \"0.01:00:00\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOBrowserIdleSignOut",
       "Id": 240,
-      "Rank": 2,
-      "CommandName": "Set-SPOBrowserIdleSignOut",
-      "Command": "Set-SPOBrowserIdleSignOut -Enabled:$true -WarnAfter (New-TimeSpan -Minutes 45) -SignOutAfter (New-TimeSpan -Hours 1)"
+      "Command": "Set-SPOBrowserIdleSignOut -Enabled:$true -WarnAfter (New-TimeSpan -Minutes 45) -SignOutAfter (New-TimeSpan -Hours 1)",
+      "Rank": 2
     },
     {
-      "Id": 241,
-      "Rank": 1,
       "CommandName": "Set-SPOBuiltInDesignPackageVisibility",
-      "Command": "Set-SPOBuiltInDesignPackageVisibility -DesignPackage Showcase -IsVisible:$false"
+      "Id": 241,
+      "Command": "Set-SPOBuiltInDesignPackageVisibility -DesignPackage Showcase -IsVisible:$false",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
       "Id": 242,
-      "Rank": 1,
-      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
-      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity <object> -IsHidden <bool>"
+      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity <object> -IsHidden <bool>",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
       "Id": 243,
-      "Rank": 2,
-      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
-      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity \"73495f08-0140-499b-8927-dd26a546f26a\" -IsHidden $true"
+      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity \"73495f08-0140-499b-8927-dd26a546f26a\" -IsHidden $true",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
       "Id": 244,
-      "Rank": 3,
-      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
-      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity \"73495f08-0140-499b-8927-dd26a546f26a\" -IsHidden $false"
+      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity \"73495f08-0140-499b-8927-dd26a546f26a\" -IsHidden $false",
+      "Rank": 3
     },
     {
+      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
       "Id": 245,
-      "Rank": 4,
-      "CommandName": "Set-SPOBuiltInSiteTemplateSettings",
-      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity \"00000000-0000-0000-0000-000000000000\" -IsHidden $true"
+      "Command": "Set-SPOBuiltInSiteTemplateSettings -Identity \"00000000-0000-0000-0000-000000000000\" -IsHidden $true",
+      "Rank": 4
     },
     {
+      "CommandName": "Set-SPOContainer",
       "Id": 246,
-      "Rank": 1,
-      "CommandName": "Set-SPOContainer",
-      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -BlockDownloadPolicy $true"
+      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -BlockDownloadPolicy $true",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOContainer",
       "Id": 247,
-      "Rank": 2,
-      "CommandName": "Set-SPOContainer",
-      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -ConditionalAccessPolicy AllowLimitedAccess"
+      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -ConditionalAccessPolicy AllowLimitedAccess",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOContainer",
       "Id": 248,
-      "Rank": 3,
-      "CommandName": "Set-SPOContainer",
-      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -SensitivityLabel ab310e93-9f19-43f2-bc19-bf3386dc0956"
+      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -SensitivityLabel ab310e93-9f19-43f2-bc19-bf3386dc0956",
+      "Rank": 3
     },
     {
+      "CommandName": "Set-SPOContainer",
       "Id": 249,
-      "Rank": 4,
-      "CommandName": "Set-SPOContainer",
-      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -RemoveLabel"
+      "Command": "Set-SPOContainer -Identity https://contoso.sharepoint.com/contentstorage/CSP_33a63968-abae-49a3-a255-f83d0ab2260a/ -RemoveLabel",
+      "Rank": 4
     },
     {
+      "CommandName": "Set-SPOContainerTypeConfiguration",
       "Id": 250,
-      "Rank": 1,
-      "CommandName": "Set-SPOContainerTypeConfiguration",
-      "Command": "Set-SPOContainerTypeConfiguration -ContainerTypeId 4f0af585-8dcc-0000-223d-661eb2c604e4 -DiscoverabilityDisabled $false"
+      "Command": "Set-SPOContainerTypeConfiguration -ContainerTypeId 4f0af585-8dcc-0000-223d-661eb2c604e4 -DiscoverabilityDisabled $false",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOContainerTypeConfiguration",
       "Id": 251,
-      "Rank": 2,
-      "CommandName": "Set-SPOContainerTypeConfiguration",
-      "Command": "Set-SPOContainerTypeConfiguration -ContainerTypeId 4f0af585-8dcc-0000-223d-661eb2c604e4 -SharingRestricted $false"
+      "Command": "Set-SPOContainerTypeConfiguration -ContainerTypeId 4f0af585-8dcc-0000-223d-661eb2c604e4 -SharingRestricted $false",
+      "Rank": 2
     },
     {
-      "Id": 252,
-      "Rank": 1,
       "CommandName": "Set-SPOContentEventEmailAddresses",
-      "Command": "Set-SPOContentEventEmailAddresses -Category Ransomware -EmailAddresses \"Joe.Doe@contoso.com\", \"John.Dow@contoso.com\""
+      "Id": 252,
+      "Command": "Set-SPOContentEventEmailAddresses -Category Ransomware -EmailAddresses \"Joe.Doe@contoso.com\", \"John.Dow@contoso.com\"",
+      "Rank": 1
     },
     {
-      "Id": 253,
-      "Rank": 1,
       "CommandName": "Set-SPOCrossTenantRelationship",
-      "Command": "Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Target -PartnerCrossTenantHostUrl https://contoso-my.sharepoint.com"
+      "Id": 253,
+      "Command": "Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Target -PartnerCrossTenantHostUrl https://contoso-my.sharepoint.com",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPODataConnectionSetting",
       "Id": 254,
-      "Rank": 1,
-      "CommandName": "Set-SPODataConnectionSetting",
-      "Command": "Set-SPODataConnectionSetting -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -AuthenticationMode \"PassThrough\""
+      "Command": "Set-SPODataConnectionSetting -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -AuthenticationMode \"PassThrough\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPODataConnectionSetting",
       "Id": 255,
-      "Rank": 2,
-      "CommandName": "Set-SPODataConnectionSetting",
-      "Command": "Set-SPODataConnectionSetting -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -AuthenticationMode \"PassThrough\" -ExtensionProvider \"\""
+      "Command": "Set-SPODataConnectionSetting -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -AuthenticationMode \"PassThrough\" -ExtensionProvider \"\"",
+      "Rank": 2
     },
     {
-      "Id": 256,
-      "Rank": 1,
       "CommandName": "Set-SPODataConnectionSettingMetadata",
-      "Command": "Set-SPODataConnectionSettingMetadata -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -AuthenticationMode \"PassThrough\""
+      "Id": 256,
+      "Command": "Set-SPODataConnectionSettingMetadata -Name \"ContosoServiceApp\" -ServiceContext \"http://contoso\" -AuthenticationMode \"PassThrough\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOGeoStorageQuota",
       "Id": 257,
-      "Rank": 1,
-      "CommandName": "Set-SPOGeoStorageQuota",
-      "Command": "Set-SPOGeoStorageQuota -GeoLocation EASTUS -StorageQuotaMB 512"
+      "Command": "Set-SPOGeoStorageQuota -GeoLocation EASTUS -StorageQuotaMB 512",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOGeoStorageQuota",
       "Id": 258,
-      "Rank": 2,
-      "CommandName": "Set-SPOGeoStorageQuota",
-      "Command": "Set-SPOGeoStorageQuota -GeoLocation NORTHCENTRALUS -StorageQuotaMB 1024"
+      "Command": "Set-SPOGeoStorageQuota -GeoLocation NORTHCENTRALUS -StorageQuotaMB 1024",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOHideDefaultThemes",
       "Id": 259,
-      "Rank": 1,
-      "CommandName": "Set-SPOHideDefaultThemes",
-      "Command": "Set-SPOHideDefaultThemes $true"
+      "Command": "Set-SPOHideDefaultThemes $true",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOHideDefaultThemes",
       "Id": 260,
-      "Rank": 2,
-      "CommandName": "Set-SPOHideDefaultThemes",
-      "Command": "Set-SPOHideDefaultThemes $false"
+      "Command": "Set-SPOHideDefaultThemes $false",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOHomeSite",
       "Id": 261,
-      "Rank": 1,
-      "CommandName": "Set-SPOHomeSite",
-      "Command": "Set-SPOHomeSite -HomeSiteUrl \"https://contoso.sharepoint.com/sites/homesite\""
+      "Command": "Set-SPOHomeSite -HomeSiteUrl \"https://contoso.sharepoint.com/sites/homesite\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOHomeSite",
       "Id": 262,
-      "Rank": 2,
-      "CommandName": "Set-SPOHomeSite",
-      "Command": "Set-SPOHomeSite -HomeSiteUrl \"https://contoso.sharepoint.com/sites/homesite\" -VivaConnectionsDefaultStart:$true"
+      "Command": "Set-SPOHomeSite -HomeSiteUrl \"https://contoso.sharepoint.com/sites/homesite\" -VivaConnectionsDefaultStart:$true",
+      "Rank": 2
     },
     {
-      "Id": 263,
-      "Rank": 1,
       "CommandName": "Set-SPOHubSite",
-      "Command": "Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing `"
+      "Id": 263,
+      "Command": "Set-SPOHubSite https://contoso.sharepoint.com/sites/Marketing `",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOListVersionPolicy",
       "Id": 264,
-      "Rank": 1,
-      "CommandName": "Set-SPOListVersionPolicy",
-      "Command": "Set-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -EnableAutoExpirationVersionTrim $true"
+      "Command": "Set-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -EnableAutoExpirationVersionTrim $true",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOListVersionPolicy",
       "Id": 265,
-      "Rank": 2,
-      "CommandName": "Set-SPOListVersionPolicy",
-      "Command": "Set-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 30"
+      "Command": "Set-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 30",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOListVersionPolicy",
       "Id": 266,
-      "Rank": 3,
-      "CommandName": "Set-SPOListVersionPolicy",
-      "Command": "Set-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 0"
+      "Command": "Set-SPOListVersionPolicy -Site https://contoso.sharepoint.com/sites/site1 -List \"Documents\" -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 0",
+      "Rank": 3
     },
     {
-      "Id": 267,
-      "Rank": 1,
       "CommandName": "Set-SPOMigrationPackageAzureSource",
-      "Command": "Set-SPOMigrationPackageAzureSource -SourcePath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_TgtPkg -MigrationPackageAzureLocations $azurelocations -AccountName migrationstore -AccountKey \"nmcXQ+1NctB7BlRVm+8+qWUn6GUFIH7E5ZQPThcjg8SfFWTJ34HthyOEoROwxHYIajpOYxYDt7qUwSEBQlLWoA==\" -NoUpload"
+      "Id": 267,
+      "Command": "Set-SPOMigrationPackageAzureSource -SourcePath \\\\fileserver\\share\\folder1 -OutputPackagePath d:\\MigrationPackages\\Folder1_TgtPkg -MigrationPackageAzureLocations $azurelocations -AccountName migrationstore -AccountKey \"nmcXQ+1NctB7BlRVm+8+qWUn6GUFIH7E5ZQPThcjg8SfFWTJ34HthyOEoROwxHYIajpOYxYDt7qUwSEBQlLWoA==\" -NoUpload",
+      "Rank": 1
     },
     {
-      "Id": 268,
-      "Rank": 1,
       "CommandName": "Set-SPOMultiGeoCompanyAllowedDataLocation",
-      "Command": "Set-SPOMultiGeoCompanyAllowedDataLocation -Location AUS -Domain contoso.com"
+      "Id": 268,
+      "Command": "Set-SPOMultiGeoCompanyAllowedDataLocation -Location AUS -Domain contoso.com",
+      "Rank": 1
     },
     {
-      "Id": 269,
-      "Rank": 1,
       "CommandName": "Set-SPOMultiGeoExperience",
-      "Command": "Set-SPOMultiGeoExperience"
+      "Id": 269,
+      "Command": "Set-SPOMultiGeoExperience",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOOrgAssetsLibrary",
       "Id": 270,
-      "Rank": 1,
-      "CommandName": "Set-SPOOrgAssetsLibrary",
-      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo2.jpg"
+      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo2.jpg",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOOrgAssetsLibrary",
       "Id": 271,
-      "Rank": 2,
-      "CommandName": "Set-SPOOrgAssetsLibrary",
-      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Assets -ThumbnailURL \"\""
+      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Assets -ThumbnailURL \"\"",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOOrgAssetsLibrary",
       "Id": 272,
-      "Rank": 3,
-      "CommandName": "Set-SPOOrgAssetsLibrary",
-      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Templates -OrgAssetType OfficeTemplateLibrary"
+      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Templates -OrgAssetType OfficeTemplateLibrary",
+      "Rank": 3
     },
     {
+      "CommandName": "Set-SPOOrgAssetsLibrary",
       "Id": 273,
-      "Rank": 4,
-      "CommandName": "Set-SPOOrgAssetsLibrary",
-      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Templates -OrgAssetType ImageDocumentLibrary,OfficeTemplateLibrary"
+      "Command": "Set-SPOOrgAssetsLibrary -LibraryURL sites/branding/Templates -OrgAssetType ImageDocumentLibrary,OfficeTemplateLibrary",
+      "Rank": 4
     },
     {
-      "Id": 274,
-      "Rank": 1,
       "CommandName": "Set-SPOOrgNewsSite",
-      "Command": "Set-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing"
+      "Id": 274,
+      "Command": "Set-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 275,
-      "Rank": 1,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -Owner joe.healy@contoso.com -NoWait"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -Owner joe.healy@contoso.com -NoWait",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 276,
-      "Rank": 2,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -StorageQuota 1024"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -StorageQuota 1024",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 277,
-      "Rank": 3,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com -StorageQuota 1500 -StorageQuotaWarningLevel 1400"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com -StorageQuota 1500 -StorageQuotaWarningLevel 1400",
+      "Rank": 3
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 278,
-      "Rank": 4,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com -DisableSharingForNonOwners"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com -DisableSharingForNonOwners",
+      "Rank": 4
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 279,
-      "Rank": 5,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/groupname -StorageQuota 3000 -StorageQuotaWarningLevel 2000"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/groupname -StorageQuota 3000 -StorageQuotaWarningLevel 2000",
+      "Rank": 5
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 280,
-      "Rank": 6,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnablePWA $true"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnablePWA $true",
+      "Rank": 6
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 281,
-      "Rank": 7,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -SharingCapability ExternalUserSharingOnly",
+      "Rank": 7
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 282,
-      "Rank": 8,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -AddInformationSegment a17efb47-e3c9-4d85-a188-1cd59c83de32"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -AddInformationSegment a17efb47-e3c9-4d85-a188-1cd59c83de32",
+      "Rank": 8
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 283,
-      "Rank": 9,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -RemoveInformationSegment a17efb47-e3c9-4d85-a188-1cd59c83de32"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -RemoveInformationSegment a17efb47-e3c9-4d85-a188-1cd59c83de32",
+      "Rank": 9
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 284,
-      "Rank": 10,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName \"MFA\""
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/research -ConditionalAccessPolicy AuthenticationContext -AuthenticationContextName \"MFA\"",
+      "Rank": 10
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 285,
-      "Rank": 11,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true",
+      "Rank": 11
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 286,
-      "Rank": 12,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 30"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 30",
+      "Rank": 12
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 287,
-      "Rank": 13,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 0"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 0",
+      "Rank": 13
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 288,
-      "Rank": 14,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true -ApplyToNewDocumentLibraries"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true -ApplyToNewDocumentLibraries",
+      "Rank": 14
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 289,
-      "Rank": 15,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30 -ApplyToNewDocumentLibraries"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30 -ApplyToNewDocumentLibraries",
+      "Rank": 15
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 290,
-      "Rank": 16,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 0 -ApplyToNewDocumentLibraries"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 0 -ApplyToNewDocumentLibraries",
+      "Rank": 16
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 291,
-      "Rank": 17,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true -ApplyToExistingDocumentLibraries"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $true -ApplyToExistingDocumentLibraries",
+      "Rank": 17
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 292,
-      "Rank": 18,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 30 -ApplyToExistingDocumentLibraries"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 30 -ApplyToExistingDocumentLibraries",
+      "Rank": 18
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 293,
-      "Rank": 19,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 0 -ApplyToExistingDocumentLibraries"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -MajorWithMinorVersionsLimit 20 -ExpireVersionsAfterDays 0 -ApplyToExistingDocumentLibraries",
+      "Rank": 19
     },
     {
+      "CommandName": "Set-SPOSite",
       "Id": 294,
-      "Rank": 20,
-      "CommandName": "Set-SPOSite",
-      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -InheritVersionPolicyFromTenant"
+      "Command": "Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -InheritVersionPolicyFromTenant",
+      "Rank": 20
     },
     {
+      "CommandName": "Set-SPOSiteArchiveState",
       "Id": 295,
-      "Rank": 1,
-      "CommandName": "Set-SPOSiteArchiveState",
-      "Command": "Set-SPOSiteArchiveState https://contoso.sharepoint.com/sites/Marketing -ArchiveState Archived"
+      "Command": "Set-SPOSiteArchiveState https://contoso.sharepoint.com/sites/Marketing -ArchiveState Archived",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOSiteArchiveState",
       "Id": 296,
-      "Rank": 2,
-      "CommandName": "Set-SPOSiteArchiveState",
-      "Command": "Set-SPOSiteArchiveState https://contoso.sharepoint.com/sites/Marketing -ArchiveState Active"
+      "Command": "Set-SPOSiteArchiveState https://contoso.sharepoint.com/sites/Marketing -ArchiveState Active",
+      "Rank": 2
     },
     {
-      "Id": 297,
-      "Rank": 1,
       "CommandName": "Set-SPOSiteDesign",
-      "Command": "Set-SPOSiteDesign `"
+      "Id": 297,
+      "Command": "Set-SPOSiteDesign `",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOSiteGroup",
       "Id": 298,
-      "Rank": 1,
-      "CommandName": "Set-SPOSiteGroup",
-      "Command": "Set-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/siteA -Identity \"ProjectViewers\" -PermissionLevelsToRemove \"Full Control\" -PermissionLevelsToAdd \"View Only\""
+      "Command": "Set-SPOSiteGroup -Site https://contoso.sharepoint.com/sites/siteA -Identity \"ProjectViewers\" -PermissionLevelsToRemove \"Full Control\" -PermissionLevelsToAdd \"View Only\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOSiteGroup",
       "Id": 299,
-      "Rank": 2,
-      "CommandName": "Set-SPOSiteGroup",
-      "Command": "Set-SPOSiteGroup -Site https://contoso.sharepoint.com -Identity \"ProjectViewers\" -Owner Melissa.kerr@contoso.com"
+      "Command": "Set-SPOSiteGroup -Site https://contoso.sharepoint.com -Identity \"ProjectViewers\" -Owner Melissa.kerr@contoso.com",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOSiteOffice365Group",
       "Id": 300,
-      "Rank": 1,
-      "CommandName": "Set-SPOSiteOffice365Group",
-      "Command": "Set-SPOSiteOffice365Group -Site https://contoso.sharepoint.com/sites/site1 -DisplayName \"site1group\" -Alias \"site1group\" -Classification \"Highly Confidential\""
+      "Command": "Set-SPOSiteOffice365Group -Site https://contoso.sharepoint.com/sites/site1 -DisplayName \"site1group\" -Alias \"site1group\" -Classification \"Highly Confidential\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOSiteOffice365Group",
       "Id": 301,
-      "Rank": 2,
-      "CommandName": "Set-SPOSiteOffice365Group",
-      "Command": "Set-SPOSiteOffice365Group -Site https://contoso.sharepoint.com/sites/classicsite -DisplayName \"Classic Site\" -Alias \"classicsite\" -KeepOldHomepage"
+      "Command": "Set-SPOSiteOffice365Group -Site https://contoso.sharepoint.com/sites/classicsite -DisplayName \"Classic Site\" -Alias \"classicsite\" -KeepOldHomepage",
+      "Rank": 2
     },
     {
-      "Id": 302,
-      "Rank": 1,
       "CommandName": "Set-SPOStorageEntity",
-      "Command": "Set-SPOStorageEntity -Site \"https://tenant-name.sharepoint.com/sites/app-catalog\" -Key \"MyCustomKey\" -Value \"{'MyKey':1234}\" -Comments \"This is an example\" -Description \"This is an example\""
+      "Id": 302,
+      "Command": "Set-SPOStorageEntity -Site \"https://tenant-name.sharepoint.com/sites/app-catalog\" -Key \"MyCustomKey\" -Value \"{'MyKey':1234}\" -Comments \"This is an example\" -Description \"This is an example\"",
+      "Rank": 1
     },
     {
-      "Id": 303,
-      "Rank": 1,
       "CommandName": "Set-SPOStructuralNavigationCacheWebState",
-      "Command": "Set-SPOStructuralNavigationCacheWebState -IsEnabled $false -WebUrl \"https://contoso.sharepoint.com/sites/product/electronics\""
+      "Id": 303,
+      "Command": "Set-SPOStructuralNavigationCacheWebState -IsEnabled $false -WebUrl \"https://contoso.sharepoint.com/sites/product/electronics\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 304,
-      "Rank": 1,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -ShowEveryoneExceptExternalUsersClaim $false"
+      "Command": "Set-SPOTenant -ShowEveryoneExceptExternalUsersClaim $false",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 305,
-      "Rank": 2,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -ShowAllUsersClaim $false"
+      "Command": "Set-SPOTenant -ShowAllUsersClaim $false",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 306,
-      "Rank": 3,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -UsePersistentCookiesForExplorerView $true"
+      "Command": "Set-SPOTenant -UsePersistentCookiesForExplorerView $true",
+      "Rank": 3
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 307,
-      "Rank": 4,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -LegacyAuthProtocolsEnabled $True"
+      "Command": "Set-SPOTenant -LegacyAuthProtocolsEnabled $True",
+      "Rank": 4
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 308,
-      "Rank": 5,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -ContentTypeSyncSiteTemplatesList MySites"
+      "Command": "Set-SPOTenant -ContentTypeSyncSiteTemplatesList MySites",
+      "Rank": 5
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 309,
-      "Rank": 6,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -ContentTypeSyncSiteTemplatesList MySites -ExcludeSiteTemplate"
+      "Command": "Set-SPOTenant -ContentTypeSyncSiteTemplatesList MySites -ExcludeSiteTemplate",
+      "Rank": 6
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 310,
-      "Rank": 7,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -SearchResolveExactEmailOrUPN $true"
+      "Command": "Set-SPOTenant -SearchResolveExactEmailOrUPN $true",
+      "Rank": 7
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 311,
-      "Rank": 8,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -UseFindPeopleInPeoplePicker $true"
+      "Command": "Set-SPOTenant -UseFindPeopleInPeoplePicker $true",
+      "Rank": 8
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 312,
-      "Rank": 9,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -ShowPeoplePickerSuggestionsForGuestUsers $true"
+      "Command": "Set-SPOTenant -ShowPeoplePickerSuggestionsForGuestUsers $true",
+      "Rank": 9
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 313,
-      "Rank": 10,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -EnableAutoExpirationVersionTrim $true"
+      "Command": "Set-SPOTenant -EnableAutoExpirationVersionTrim $true",
+      "Rank": 10
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 314,
-      "Rank": 11,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30"
+      "Command": "Set-SPOTenant -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 30",
+      "Rank": 11
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 315,
-      "Rank": 12,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 0"
+      "Command": "Set-SPOTenant -EnableAutoExpirationVersionTrim $false -MajorVersionLimit 500 -ExpireVersionsAfterDays 0",
+      "Rank": 12
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 316,
-      "Rank": 13,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -SharingDomainRestrictionMode \"AllowList\" -SharingAllowedDomainList \"contoso.com fabrikam.com\""
+      "Command": "Set-SPOTenant -SharingDomainRestrictionMode \"AllowList\" -SharingAllowedDomainList \"contoso.com fabrikam.com\"",
+      "Rank": 13
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 317,
-      "Rank": 14,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -SharingDomainRestrictionMode \"BlockList\" -SharingBlockedDomainList \"contoso.com\""
+      "Command": "Set-SPOTenant -SharingDomainRestrictionMode \"BlockList\" -SharingBlockedDomainList \"contoso.com\"",
+      "Rank": 14
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 318,
-      "Rank": 15,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -EnableVersionExpirationSetting $true"
+      "Command": "Set-SPOTenant -EnableVersionExpirationSetting $true",
+      "Rank": 15
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 319,
-      "Rank": 16,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -PrebuiltModelScope SelectedSites -PrebuiltModelSelectedSitesList \"https://contoso.sharepoint.com/sites/site1\",\"https://contoso.sharepoint.com/sites/site2\" -PrebuiltModelSelectedSitesListOperation Append"
+      "Command": "Set-SPOTenant -PrebuiltModelScope SelectedSites -PrebuiltModelSelectedSitesList \"https://contoso.sharepoint.com/sites/site1\",\"https://contoso.sharepoint.com/sites/site2\" -PrebuiltModelSelectedSitesListOperation Append",
+      "Rank": 16
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 320,
-      "Rank": 17,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant -DefaultContentCenterSite \"https://contoso.sharepoint.com/sites/contentcenter\""
+      "Command": "Set-SPOTenant -DefaultContentCenterSite \"https://contoso.sharepoint.com/sites/contentcenter\"",
+      "Rank": 17
     },
     {
+      "CommandName": "Set-SPOTenant",
       "Id": 321,
-      "Rank": 18,
-      "CommandName": "Set-SPOTenant",
-      "Command": "Set-SPOTenant –WhoCanShareAnonymousAllowList @()"
+      "Command": "Set-SPOTenant –WhoCanShareAnonymousAllowList @()",
+      "Rank": 18
     },
     {
-      "Id": 322,
-      "Rank": 1,
       "CommandName": "Set-SPOTenantCdnEnabled",
-      "Command": "Set-SPOTenantCdnEnabled -CdnType public -Enable $true"
+      "Id": 322,
+      "Command": "Set-SPOTenantCdnEnabled -CdnType public -Enable $true",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenantCdnPolicy",
       "Id": 323,
-      "Rank": 1,
-      "CommandName": "Set-SPOTenantCdnPolicy",
-      "Command": "Set-SPOTenantCdnPolicy -CdnType Public -PolicyType IncludeFileExtensions -PolicyValue \"CSS,EOT,GIF,ICO,JPEG,JPG,JS,MAP,PNG,SVG,TTF,WOFF,BMP\""
+      "Command": "Set-SPOTenantCdnPolicy -CdnType Public -PolicyType IncludeFileExtensions -PolicyValue \"CSS,EOT,GIF,ICO,JPEG,JPG,JS,MAP,PNG,SVG,TTF,WOFF,BMP\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenantCdnPolicy",
       "Id": 324,
-      "Rank": 2,
-      "CommandName": "Set-SPOTenantCdnPolicy",
-      "Command": "Set-SPOTenantCdnPolicy -CdnType Public -PolicyType ExcludeRestrictedSiteClassifications -PolicyValue \"Confidential,Restricted\""
+      "Command": "Set-SPOTenantCdnPolicy -CdnType Public -PolicyType ExcludeRestrictedSiteClassifications -PolicyValue \"Confidential,Restricted\"",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOTenantContentTypeReplicationParameters",
       "Id": 325,
-      "Rank": 1,
-      "CommandName": "Set-SPOTenantContentTypeReplicationParameters",
-      "Command": "Set-SPOTenantContentTypeReplicationParameters -ReplicatedContentTypes \"ct1\",\"ct2\""
+      "Command": "Set-SPOTenantContentTypeReplicationParameters -ReplicatedContentTypes \"ct1\",\"ct2\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenantContentTypeReplicationParameters",
       "Id": 326,
-      "Rank": 2,
-      "CommandName": "Set-SPOTenantContentTypeReplicationParameters",
-      "Command": "Set-SPOTenantContentTypeReplicationParameters -ReplicateAllContentTypes"
+      "Command": "Set-SPOTenantContentTypeReplicationParameters -ReplicateAllContentTypes",
+      "Rank": 2
     },
     {
-      "Id": 327,
-      "Rank": 1,
       "CommandName": "Set-SPOTenantRenameSitePrioritization",
-      "Command": "Set-SPOTenantRenameSitePrioritization -SiteUrl https://contoso.sharepoint.com/sites/projectx"
+      "Id": 327,
+      "Command": "Set-SPOTenantRenameSitePrioritization -SiteUrl https://contoso.sharepoint.com/sites/projectx",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenantSyncClientRestriction",
       "Id": 328,
-      "Rank": 1,
-      "CommandName": "Set-SPOTenantSyncClientRestriction",
-      "Command": "Set-SPOTenantSyncClientRestriction -Enable -DomainGuids \"786548DD-877B-4760-A749-6B1EFBC1190A; 877564FF-877B-4760-A749-6B1EFBC1190A\""
+      "Command": "Set-SPOTenantSyncClientRestriction -Enable -DomainGuids \"786548DD-877B-4760-A749-6B1EFBC1190A; 877564FF-877B-4760-A749-6B1EFBC1190A\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenantSyncClientRestriction",
       "Id": 329,
-      "Rank": 2,
-      "CommandName": "Set-SPOTenantSyncClientRestriction",
-      "Command": "Set-SPOTenantSyncClientRestriction -Enable -DomainGuids \"786548DD-877B-4760-A749-6B1EFBC1190A; 877564FF-877B-4760-A749-6B1EFBC1190A\" -BlockMacSync:$true"
+      "Command": "Set-SPOTenantSyncClientRestriction -Enable -DomainGuids \"786548DD-877B-4760-A749-6B1EFBC1190A; 877564FF-877B-4760-A749-6B1EFBC1190A\" -BlockMacSync:$true",
+      "Rank": 2
     },
     {
+      "CommandName": "Set-SPOTenantSyncClientRestriction",
       "Id": 330,
-      "Rank": 3,
-      "CommandName": "Set-SPOTenantSyncClientRestriction",
-      "Command": "Set-SPOTenantSyncClientRestriction -ExcludedFileExtensions \"pptx;docx;xlsx\""
+      "Command": "Set-SPOTenantSyncClientRestriction -ExcludedFileExtensions \"pptx;docx;xlsx\"",
+      "Rank": 3
     },
     {
+      "CommandName": "Set-SPOTenantSyncClientRestriction",
       "Id": 331,
-      "Rank": 4,
-      "CommandName": "Set-SPOTenantSyncClientRestriction",
-      "Command": "Set-SPOTenantSyncClientRestriction -ExcludedFileExtensions \"\""
+      "Command": "Set-SPOTenantSyncClientRestriction -ExcludedFileExtensions \"\"",
+      "Rank": 4
     },
     {
+      "CommandName": "Set-SPOTenantTaxonomyReplicationParameters",
       "Id": 332,
-      "Rank": 1,
-      "CommandName": "Set-SPOTenantTaxonomyReplicationParameters",
-      "Command": "Set-SPOTenantTaxonomyReplicationParameters -ReplicatedGroups \"group1\",\"group2\""
+      "Command": "Set-SPOTenantTaxonomyReplicationParameters -ReplicatedGroups \"group1\",\"group2\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOTenantTaxonomyReplicationParameters",
       "Id": 333,
-      "Rank": 2,
-      "CommandName": "Set-SPOTenantTaxonomyReplicationParameters",
-      "Command": "Set-SPOTenantTaxonomyReplicationParameters -ReplicateAllGroups"
+      "Command": "Set-SPOTenantTaxonomyReplicationParameters -ReplicateAllGroups",
+      "Rank": 2
     },
     {
-      "Id": 334,
-      "Rank": 1,
       "CommandName": "Set-SPOUnifiedGroup",
-      "Command": "Set-SPOUnifiedGroup -GroupAlias EUTeam -PreferredDataLocation EUR"
+      "Id": 334,
+      "Command": "Set-SPOUnifiedGroup -GroupAlias EUTeam -PreferredDataLocation EUR",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOUser",
       "Id": 335,
-      "Rank": 1,
-      "CommandName": "Set-SPOUser",
-      "Command": "Set-SPOUser -Site https://contoso.sharepoint.com/sites/marketing -LoginName melissa.kerr@contoso.com -IsSiteCollectionAdmin $true"
+      "Command": "Set-SPOUser -Site https://contoso.sharepoint.com/sites/marketing -LoginName melissa.kerr@contoso.com -IsSiteCollectionAdmin $true",
+      "Rank": 1
     },
     {
+      "CommandName": "Set-SPOUser",
       "Id": 336,
-      "Rank": 2,
-      "CommandName": "Set-SPOUser",
-      "Command": "Set-SPOUser -Site https://contoso.sharepoint.com/sites/benefits -LoginName adelev_fabrikam.onmicrosoft.com#ext#@contoso.onmicrosoft.com -IsSiteCollectionAdmin $true"
+      "Command": "Set-SPOUser -Site https://contoso.sharepoint.com/sites/benefits -LoginName adelev_fabrikam.onmicrosoft.com#ext#@contoso.onmicrosoft.com -IsSiteCollectionAdmin $true",
+      "Rank": 2
     },
     {
-      "Id": 337,
-      "Rank": 1,
       "CommandName": "Set-SPOWebTheme",
-      "Command": "Set-SPOWebTheme -Theme \"Custom cyan\" -Web https://contoso.sharepoint.com/sites/Contoso1"
+      "Id": 337,
+      "Command": "Set-SPOWebTheme -Theme \"Custom cyan\" -Web https://contoso.sharepoint.com/sites/Contoso1",
+      "Rank": 1
     },
     {
+      "CommandName": "Start-SPOEnterpriseAppInsightsReport",
       "Id": 338,
-      "Rank": 1,
-      "CommandName": "Start-SPOEnterpriseAppInsightsReport",
-      "Command": "Start-SPOEnterpriseAppInsightsReport"
+      "Command": "Start-SPOEnterpriseAppInsightsReport",
+      "Rank": 1
     },
     {
+      "CommandName": "Start-SPOEnterpriseAppInsightsReport",
       "Id": 339,
-      "Rank": 2,
-      "CommandName": "Start-SPOEnterpriseAppInsightsReport",
-      "Command": "Start-SPOEnterpriseAppInsightsReport –ReportPeriodInDays 14"
+      "Command": "Start-SPOEnterpriseAppInsightsReport –ReportPeriodInDays 14",
+      "Rank": 2
     },
     {
+      "CommandName": "Start-SPOSiteContentMove",
       "Id": 340,
-      "Rank": 1,
-      "CommandName": "Start-SPOSiteContentMove",
-      "Command": "Start-SPOSiteContentMove -SourceSiteUrl https://contosoenergy.sharepoint.com/sites/hr -DestinationDataLocation EUR"
+      "Command": "Start-SPOSiteContentMove -SourceSiteUrl https://contosoenergy.sharepoint.com/sites/hr -DestinationDataLocation EUR",
+      "Rank": 1
     },
     {
+      "CommandName": "Start-SPOSiteContentMove",
       "Id": 341,
-      "Rank": 2,
-      "CommandName": "Start-SPOSiteContentMove",
-      "Command": "Start-SPOSiteContentMove -SourceSiteUrl https://contosoenergy.sharepoint.com/sites/hr -DestinationDataLocation EUR -PreferredMoveBeginDate ((Get-Date).AddHours(1)) -PreferredMoveEndDate ((Get-Date).AddHour(12))"
+      "Command": "Start-SPOSiteContentMove -SourceSiteUrl https://contosoenergy.sharepoint.com/sites/hr -DestinationDataLocation EUR -PreferredMoveBeginDate ((Get-Date).AddHours(1)) -PreferredMoveEndDate ((Get-Date).AddHour(12))",
+      "Rank": 2
     },
     {
+      "CommandName": "Start-SPOSiteContentMove",
       "Id": 342,
-      "Rank": 3,
-      "CommandName": "Start-SPOSiteContentMove",
-      "Command": "Start-SPOSiteContentMove -SourceSiteUrl https://contosoenergy.sharepoint.com/sites/hr -DestinationUrl https://contosoenergyEUR.sharepoint.com/sites/hrEU"
+      "Command": "Start-SPOSiteContentMove -SourceSiteUrl https://contosoenergy.sharepoint.com/sites/hr -DestinationUrl https://contosoenergyEUR.sharepoint.com/sites/hrEU",
+      "Rank": 3
     },
     {
-      "Id": 343,
-      "Rank": 1,
       "CommandName": "Start-SPOTenantRename",
-      "Command": "Start-SPOTenantRename -DomainName \"fabrikam\" -ScheduledDateTime \"2021-12-31T10:25:00\""
+      "Id": 343,
+      "Command": "Start-SPOTenantRename -DomainName \"fabrikam\" -ScheduledDateTime \"2021-12-31T10:25:00\"",
+      "Rank": 1
     },
     {
-      "Id": 344,
-      "Rank": 1,
       "CommandName": "Start-SPOUnifiedGroupMove",
-      "Command": "Start-SPOUnifiedGroupMove -GroupAlias EUTeam -DestinationDataLocation EUR"
+      "Id": 344,
+      "Command": "Start-SPOUnifiedGroupMove -GroupAlias EUTeam -DestinationDataLocation EUR",
+      "Rank": 1
     },
     {
+      "CommandName": "Start-SPOUserAndContentMove",
       "Id": 345,
-      "Rank": 1,
-      "CommandName": "Start-SPOUserAndContentMove",
-      "Command": "Start-SPOUserAndContentMove -UserPrincipalName username@contoso.onmicrosoft.com -DestinationDataLocation EUR"
+      "Command": "Start-SPOUserAndContentMove -UserPrincipalName username@contoso.onmicrosoft.com -DestinationDataLocation EUR",
+      "Rank": 1
     },
     {
+      "CommandName": "Start-SPOUserAndContentMove",
       "Id": 346,
-      "Rank": 2,
-      "CommandName": "Start-SPOUserAndContentMove",
-      "Command": "Start-SPOUserAndContentMove -UserPrincipalName username@contoso.onmicrosoft.com -DestinationDataLocation JPN"
+      "Command": "Start-SPOUserAndContentMove -UserPrincipalName username@contoso.onmicrosoft.com -DestinationDataLocation JPN",
+      "Rank": 2
     },
     {
+      "CommandName": "Start-SPOUserAndContentMove",
       "Id": 347,
-      "Rank": 3,
-      "CommandName": "Start-SPOUserAndContentMove",
-      "Command": "Start-SPOUserAndContentMove -UserPrincipalName username@contoso.onmicrosoft.com -DestinationDataLocation EUR -PreferredMoveBeginDate ((Get-Date).AddHours(1)) -PreferredMoveEndDate ((Get-Date).AddHour(12))"
+      "Command": "Start-SPOUserAndContentMove -UserPrincipalName username@contoso.onmicrosoft.com -DestinationDataLocation EUR -PreferredMoveBeginDate ((Get-Date).AddHours(1)) -PreferredMoveEndDate ((Get-Date).AddHour(12))",
+      "Rank": 3
     },
     {
-      "Id": 348,
-      "Rank": 1,
       "CommandName": "Stop-SPOSiteContentMove",
-      "Command": "Stop-SPOSiteContentMove -SourceSiteUrl https://contoso.sharepoint.com/sites/Research"
+      "Id": 348,
+      "Command": "Stop-SPOSiteContentMove -SourceSiteUrl https://contoso.sharepoint.com/sites/Research",
+      "Rank": 1
     },
     {
-      "Id": 349,
-      "Rank": 1,
       "CommandName": "Stop-SPOTenantRename",
-      "Command": "Stop-SPOTenantRename -Reason \"Rescheduling\""
+      "Id": 349,
+      "Command": "Stop-SPOTenantRename -Reason \"Rescheduling\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Stop-SPOUserAndContentMove",
       "Id": 350,
-      "Rank": 1,
-      "CommandName": "Stop-SPOUserAndContentMove",
-      "Command": "Stop-SPOUserAndContentMove -UserPrincipalName \"TesIser@contoso.com\""
+      "Command": "Stop-SPOUserAndContentMove -UserPrincipalName \"TesIser@contoso.com\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Stop-SPOUserAndContentMove",
       "Id": 351,
-      "Rank": 2,
-      "CommandName": "Stop-SPOUserAndContentMove",
-      "Command": "Stop-SPOUserAndContentMove \"TesIser@contoso.com\""
+      "Command": "Stop-SPOUserAndContentMove \"TesIser@contoso.com\"",
+      "Rank": 2
     },
     {
+      "CommandName": "Submit-SPOMigrationJob",
       "Id": 352,
-      "Rank": 1,
-      "CommandName": "Submit-SPOMigrationJob",
-      "Command": "Submit-SPOMigrationJob -TargetUrl https://contoso.sharepoint.com/sites/TargetSite/TargetWeb -FileContainerUri \"https://migrationstore.blob.core.windows.net/migration-files?sv=2014-02-14&sr=c&sig=THTTJoeGHysxRLgv22j473XYS2blH1YAVIdsfWrPhq8=&se=2015-04-06T05:09:36Z&sp=rl\" -PackageContainerUri \"https://migrationstore.blob.core.windows.net/migration-package?sv=2014-02-14&sr=c&sig=2PCBJtiXsVWiK5GrY7jBEdyEAwtunQNJLH8uo6I0+Ew=&se=2015-04-06T05:09:37Z&sp=rwl\""
+      "Command": "Submit-SPOMigrationJob -TargetUrl https://contoso.sharepoint.com/sites/TargetSite/TargetWeb -FileContainerUri \"https://migrationstore.blob.core.windows.net/migration-files?sv=2014-02-14&sr=c&sig=THTTJoeGHysxRLgv22j473XYS2blH1YAVIdsfWrPhq8=&se=2015-04-06T05:09:36Z&sp=rl\" -PackageContainerUri \"https://migrationstore.blob.core.windows.net/migration-package?sv=2014-02-14&sr=c&sig=2PCBJtiXsVWiK5GrY7jBEdyEAwtunQNJLH8uo6I0+Ew=&se=2015-04-06T05:09:37Z&sp=rwl\"",
+      "Rank": 1
     },
     {
+      "CommandName": "Submit-SPOMigrationJob",
       "Id": 353,
-      "Rank": 2,
-      "CommandName": "Submit-SPOMigrationJob",
-      "Command": "Submit-SPOMigrationJob -TargetUrl https://contoso.sharepoint.com/sites/TargetSite/TargetWeb -MigrationPackageAzureLocations $azurelocations"
+      "Command": "Submit-SPOMigrationJob -TargetUrl https://contoso.sharepoint.com/sites/TargetSite/TargetWeb -MigrationPackageAzureLocations $azurelocations",
+      "Rank": 2
     },
     {
-      "Id": 354,
-      "Rank": 1,
       "CommandName": "Test-SPOSite",
-      "Command": "Test-SPOSite https://contoso.sharepoint.com/sites/marketing"
+      "Id": 354,
+      "Command": "Test-SPOSite https://contoso.sharepoint.com/sites/marketing",
+      "Rank": 1
     },
     {
+      "CommandName": "Unlock-SPOSensitivityLabelEncryptedFile",
       "Id": 355,
-      "Rank": 1,
-      "CommandName": "Unlock-SPOSensitivityLabelEncryptedFile",
-      "Command": "Unlock-SPOSensitivityLabelEncryptedFile -FileUrl <absolute path for file> -JustificationText <needed for auditing>"
+      "Command": "Unlock-SPOSensitivityLabelEncryptedFile -FileUrl <absolute path for file> -JustificationText <needed for auditing>",
+      "Rank": 1
     },
     {
+      "CommandName": "Unlock-SPOSensitivityLabelEncryptedFile",
       "Id": 356,
-      "Rank": 2,
-      "CommandName": "Unlock-SPOSensitivityLabelEncryptedFile",
-      "Command": "Unlock-SPOSensitivityLabelEncryptedFile -FileUrl \"https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx\" -JustificationText \"Need to recover this file\""
+      "Command": "Unlock-SPOSensitivityLabelEncryptedFile -FileUrl \"https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx\" -JustificationText \"Need to recover this file\"",
+      "Rank": 2
     },
     {
+      "CommandName": "Unregister-SPOHubSite",
       "Id": 357,
-      "Rank": 1,
-      "CommandName": "Unregister-SPOHubSite",
-      "Command": "Unregister-SPOHubSite -Identity <guid>"
+      "Command": "Unregister-SPOHubSite -Identity <guid>",
+      "Rank": 1
     },
     {
+      "CommandName": "Unregister-SPOHubSite",
       "Id": 358,
-      "Rank": 2,
-      "CommandName": "Unregister-SPOHubSite",
-      "Command": "Unregister-SPOHubSite -Identity https://contoso.sharepoint.com/sites/Marketing"
+      "Command": "Unregister-SPOHubSite -Identity https://contoso.sharepoint.com/sites/Marketing",
+      "Rank": 2
     },
     {
-      "Id": 359,
-      "Rank": 1,
       "CommandName": "Update-SPODataEncryptionPolicy",
-      "Command": "Update-SPODataEncryptionPolicy -KeyVaultName <ReplacementKeyVaultName> -KeyName <ReplacementKeyName> -KeyVersion <ReplacementKeyVersion> -KeyType Primary"
+      "Id": 359,
+      "Command": "Update-SPODataEncryptionPolicy -KeyVaultName <ReplacementKeyVaultName> -KeyName <ReplacementKeyName> -KeyVersion <ReplacementKeyVersion> -KeyType Primary",
+      "Rank": 1
     },
     {
-      "Id": 360,
-      "Rank": 1,
       "CommandName": "Update-UserType",
-      "Command": "Update-UserType -LoginName jdoe@contoso.com"
+      "Id": 360,
+      "Command": "Update-UserType -LoginName jdoe@contoso.com",
+      "Rank": 1
     },
     {
+      "CommandName": "Upgrade-SPOSite",
       "Id": 361,
-      "Rank": 1,
-      "CommandName": "Upgrade-SPOSite",
-      "Command": "Upgrade-SPOSite -Identity https://contoso.sharepoint.com/sites/marketing"
+      "Command": "Upgrade-SPOSite -Identity https://contoso.sharepoint.com/sites/marketing",
+      "Rank": 1
     },
     {
-      "Id": 362,
-      "Rank": 2,
       "CommandName": "Upgrade-SPOSite",
-      "Command": "Upgrade-SPOSite -Identity https://contoso.sharepoint.com/sites/marketing -VersionUpgrade"
+      "Id": 362,
+      "Command": "Upgrade-SPOSite -Identity https://contoso.sharepoint.com/sites/marketing -VersionUpgrade",
+      "Rank": 2
     }
   ]
 }
